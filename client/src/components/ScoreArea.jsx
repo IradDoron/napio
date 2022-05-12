@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 function ScoreArea({ tune, id }) {
   useEffect(() => {
     abcjs.renderAbc(id, tune);
-  }, []);
+  }, [tune]);
 
   return (
     <>
