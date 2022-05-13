@@ -2,21 +2,16 @@ import ScoreArea from './ScoreArea';
 import abcTunes from '../data/abcTunes';
 import { objectToAbcTune } from '../helpers/helpers';
 import { Pagination } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function Book({ book }) {
   const [currTuneNum, setCurrTuneNum] = useState(1);
-  const bookTunes = abcTunes[book];
+  const bookTunes = abcTunes[book].tunes;
 
   function handleTuneChange(e, p) {
     console.log(p);
     setCurrTuneNum(p);
   }
-
-  useEffect(() => {
-    const test = objectToAbcTune(bookTunes[currTuneNum - 1]);
-    console.log(test);
-  }, [currTuneNum]);
 
   return (
     <>
