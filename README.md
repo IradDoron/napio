@@ -15,10 +15,11 @@ In this app you will learn:
 
 There are four main pages:
 
-- Books
-- Theory
 - Lessons
+- Theory
+- Harmony
 - Technique
+- Books
 
 ## Books Page
 
@@ -36,3 +37,33 @@ The books sorted in the following categories:
 - Bossa Nova
 - Blues
 - Classical
+
+## Techniques Page
+
+This page improve the techniques abilities of the user.
+
+Techniques subjects:
+
+- Scales
+- Arpeggios
+- Accompaniment
+- Runs
+
+## Theory Page
+
+In the theory page we going to cover the following subjects:
+
+- Terminology
+- Rythm
+- Pitch
+- Intervals
+- Scales
+
+## Harmony
+
+In the Harmony page, we deal with harmony. How to create and understand harmony.
+
+Subjects:
+
+- Traditional Harmony
+- 
