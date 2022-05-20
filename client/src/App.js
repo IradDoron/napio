@@ -1,12 +1,29 @@
-import Book from './components/Book';
-import BOOKS_NAMES from './data/BOOKS_NAMES';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PagesNav from './components/PagesNav/PagesNav';
+
+// import pages
+import Lessons from './pages/Lessons/Lessons';
+import Theory from './pages/Theory/Theory';
+import Technique from './pages/Technique/Technique';
+import Harmony from './pages/Harmony/Harmony';
+import Books from './pages/Books/Books';
+import Composition from './pages/Composition/Composition';
 
 function App() {
   return (
     <>
-      <Book book={BOOKS_NAMES.NOTEBOOK_FOR_ANNA_MAGDALENA_BACH} />
-      <Book book={BOOKS_NAMES.LITTLE_EXERCISES_BOOK_01} />
-      <Book book={BOOKS_NAMES.REPEATED_NOTE_BOOK_01} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="lessons" element={<Lessons />} />
+          <Route path="theory" element={<Theory />} />
+          <Route path="technique" element={<Technique />} />
+          <Route path="harmony" element={<Harmony />} />
+          <Route path="books" element={<Books />} />
+          <Route path="composition" element={<Composition />} />
+        </Routes>
+
+        <PagesNav />
+      </BrowserRouter>
     </>
   );
 }

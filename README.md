@@ -19,6 +19,7 @@ There are four main pages:
 - Theory
 - Harmony
 - Technique
+- Composition
 - Books
 
 ## Books Page
@@ -54,7 +55,7 @@ Techniques subjects:
 In the theory page we going to cover the following subjects:
 
 - Terminology
-- Rythm
+- Rhythm
 - Pitch
 - Intervals
 - Scales
@@ -66,4 +67,4 @@ In the Harmony page, we deal with harmony. How to create and understand harmony.
 Subjects:
 
 - Traditional Harmony
-- 
+- Commom Harmony Patterns

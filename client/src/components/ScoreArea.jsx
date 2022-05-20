@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const visualOptions = { responsive: 'resize' };
 
 const Container = styled.div`
-  max-width: 700px !important;
+  max-width: 70% !important;
 `;
 
 function ScoreArea({ tune, id }) {
