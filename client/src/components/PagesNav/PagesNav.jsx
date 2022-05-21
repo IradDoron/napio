@@ -27,9 +27,9 @@ function PagesNav() {
           <BottomNavigationAction label="Lessons" icon={<ThumbUpAltIcon />} component={Link} to="/lessons" />
           <BottomNavigationAction label="Theory" icon={<ThumbUpAltIcon />} component={Link} to="/theory" />
           <BottomNavigationAction label="Harmony" icon={<ThumbUpAltIcon />} component={Link} to="/harmony" />
+          <BottomNavigationAction label="Books" icon={<ThumbUpAltIcon />} component={Link} to="/books" />
           <BottomNavigationAction label="Technique" icon={<ThumbUpAltIcon />} component={Link} to="/technique" />
           <BottomNavigationAction label="Composition" icon={<ThumbUpAltIcon />} component={Link} to="/composition" />
-          <BottomNavigationAction label="Books" icon={<ThumbUpAltIcon />} component={Link} to="/books" />
         </BottomNavigation>
       </Paper>
     </nav>
