@@ -1,13 +1,23 @@
-import Book from '../../components/Book';
-import BOOKS_NAMES from '../../data/BOOKS_NAMES';
+import Category from './Category/Category';
+
+import abcTunes from '../../data/abcTunes';
+import BookTemplate from './BookTemplate/BookTemplate';
+import { Outlet, Routes, Route, useParams } from 'react-router-dom';
 
 function Books() {
+  const categories = Object.keys(abcTunes);
+
   return (
     <>
       <h1>Books page</h1>
-      <Book book={BOOKS_NAMES.NOTEBOOK_FOR_ANNA_MAGDALENA_BACH} />
-      <Book book={BOOKS_NAMES.LITTLE_EXERCISES_BOOK_01} />
-      <Book book={BOOKS_NAMES.REPEATED_NOTE_BOOK_01} />
+      {categories.map((category, index) => {
+        return (
+          <div key={index}>
+            <Category category={abcTunes[category]} />
+          </div>
+        );
+      })}
+      <Outlet />
     </>
   );
 }

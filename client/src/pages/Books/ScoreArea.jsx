@@ -2,11 +2,9 @@ import abcjs from 'abcjs';
 import { useEffect } from 'react';
 import styled from 'styled-components';
 
-const visualOptions = { responsive: 'resize' };
+import { Paper } from '@mui/material';
 
-const Container = styled.div`
-  max-width: 70% !important;
-`;
+const visualOptions = { responsive: 'resize' };
 
 function ScoreArea({ tune, id }) {
   useEffect(() => {
@@ -15,7 +13,9 @@ function ScoreArea({ tune, id }) {
 
   return (
     <>
-      <Container id={id}></Container>
+      <div style={{ maxWidth: '700px', width: '100%' }}>
+        <Paper elevation={3} id={id}></Paper>
+      </div>
     </>
   );
 }
