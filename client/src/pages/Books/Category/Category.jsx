@@ -3,10 +3,11 @@ import abcTunes from '../../../data/abcTunes';
 import Book from '../Book';
 import BookTemplate from '../BookTemplate/BookTemplate';
 
-// import material ui components
-import { Stack, Typography, Button } from '@mui/material';
 import { NavLink, Link, Route, Routes, Outlet, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+
+// import material ui components
+import { Stack, Typography, Button } from '@mui/material';
 
 function Category({ category }) {
   const [books, setBooks] = useState(null);
@@ -23,7 +24,7 @@ function Category({ category }) {
           {books?.map((book, index) => {
             return (
               <NavLink key={index} to={`${category.urlName}/${book}`}>
-                {category.books[book].name}
+                <Button> {category.books[book].name}</Button>
               </NavLink>
             );
           })}

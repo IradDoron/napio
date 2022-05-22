@@ -24,12 +24,18 @@ function PagesNav() {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Lessons" icon={<ThumbUpAltIcon />} component={Link} to="/lessons" />
+          <BottomNavigationAction
+            label="Accompaniment"
+            icon={<ThumbUpAltIcon />}
+            component={Link}
+            to="/accompaniment"
+          />
           <BottomNavigationAction label="Theory" icon={<ThumbUpAltIcon />} component={Link} to="/theory" />
           <BottomNavigationAction label="Harmony" icon={<ThumbUpAltIcon />} component={Link} to="/harmony" />
           <BottomNavigationAction label="Books" icon={<ThumbUpAltIcon />} component={Link} to="/books" />
           <BottomNavigationAction label="Technique" icon={<ThumbUpAltIcon />} component={Link} to="/technique" />
           <BottomNavigationAction label="Composition" icon={<ThumbUpAltIcon />} component={Link} to="/composition" />
+          <BottomNavigationAction label="Games" icon={<ThumbUpAltIcon />} component={Link} to="/games" />
         </BottomNavigation>
       </Paper>
     </nav>

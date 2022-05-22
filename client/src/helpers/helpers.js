@@ -1,10 +1,10 @@
 export function objectToAbcTune(abcData) {
   let abcTuneStr = '';
 
-  for (let field in abcData.header) {
+  for (let field in abcData?.header) {
     abcTuneStr += `${field}: ${abcData.header[field]}\n`;
   }
-  abcTuneStr += abcData.body;
+  abcTuneStr += abcData?.body;
 
-  return abcTuneStr;
+  return abcTuneStr ? abcTuneStr : null;
 }
