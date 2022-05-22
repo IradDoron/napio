@@ -16,6 +16,7 @@ function PagesBody() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Books />} />
         <Route path="Accompaniment" element={<Accompaniment />} />
         <Route path="theory" element={<Theory />} />
         <Route path="technique" element={<Technique />} />
