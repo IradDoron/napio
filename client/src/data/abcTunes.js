@@ -936,6 +936,50 @@ CD =EF GA |"C7" B2 =e2 e/f/g |"F/A" c2 "Bb" BA "C" GA |"F" F6 |
       },
     },
   },
+  technique_etudes: {
+    name: 'Technique Etudes',
+    urlName: 'technique_etudes',
+    description: 'Etudes for practicing techniques',
+    books: {
+      piano_etudes_book_1: {
+        name: 'Piano Etudes Book 1',
+        tunes: [
+          {
+            header: {
+              L: '1/16',
+              M: '4/4',
+              K: 'C',
+            },
+            body: `"C" CDEF GABc "F" FAcB AGFE |"G" DEFG ABcd "Em" GBdc BAGF |
+            "Am" EFGA Bcde "Dm" Adfe dcBA |"G" GABc defg "Bmb5" Bdgf edcB |
+            "C" cdef gabc' "F" fac'b agfe |"G" defg abc'd' "Em" gbd'c' bagf |
+            "Am" efga bc'd'e' "Dm" ad'f'e' d'c'ba |"G" gabc' d'e'f'g' "Bmb5" bd'g'f' e'd'c'b |
+            "C" c'c''b'a' g'f'e'd' c'e'd'c' bagf | egfe dcBA GcBA GFED | C16 |] `,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/16',
+              M: '4/4',
+              K: 'C',
+            },
+            body: `"C" EGcB cGEG "F" FAcB cAFA |"C" EGcB cGEG "G" DFGA BAGF |
+            "C" EGcB cGEG "F" FAcB cAFA |"C" EGcB cGEG "G" DFGA BAGF |
+            "C" EGAB cBAG "F" FGAB cBAG |"C" EGAB cBAG "G" DFGA BAGF |
+            "C" EGAB cBAG "F" FGAB cBAG |"C" EGAB cBAG "G" DFGA BGAB |
+            "C" cBAG EGAB "F" cBAG FGAB |"C" cBAG EFGA "G" BAGF DGAB |
+            "C" cBAG EGAB "F" cBAG FGAB |"C" cBAG EFGA "G" BAGF DAGF |
+            "C" EGcB cGEG "F" FAcB cAFA |"C" EGcB cGEG "G" DFGA BGAB |"C" c16 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+        ],
+      },
+    },
+  },
 };
 
 export default abcTunes;
