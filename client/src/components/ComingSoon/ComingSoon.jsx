@@ -1,7 +1,7 @@
 function ComingSoon() {
   return (
     <>
-      <h2>Page in prograss, coming soon</h2>
+      <h2>Page in progress, coming soon</h2>
     </>
   );
 }
