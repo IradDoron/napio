@@ -730,6 +730,34 @@ const abcTunes = {
         level: 'intermediate',
         description: 'Master the "Repeated Note" technique',
       },
+      drums_style: {
+        name: 'Drums Style',
+        tunes: [
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'C',
+            },
+            body: `"C" z CB,C ECB,C | G,CB,C ECB,C | z EDE FEFD | EEDE FEFD |
+            ECDB, CEDB, | CG,A,B, CG,A,B, |CG,A,B, CDEF |
+            G/C/E/G/ c/B/A/G/"D" ^F/D/F/A/ d/c/B/A/ |"G" BG^FG ABAG | DG^FG ABAG |z BAB cBcA |
+             BBAB cBcA | BGA^F GBAF | GDE^F GDEF | GDE^F GABc |
+            ddee dGGG | ddee dGGG |"G7" ddee fffe | eddc BGGG |
+            GGGG FFFF | EEEE DDDD | GGGG FFFF | EEEE DD D2 |
+            "Cm" z CB,C _DCB,C |z CB,C _DCB,C | z _EDE FEFD | _EEDE F_AGF |
+            _EC_DB, CEDB, | CG,_A,B, CB,A,B, | G,F_ED CB,ED |CG,_A,B, CB,A,B, |
+            "G" G,G,F,G, _A,G,A,F, | G,G,F,G, _A,G,A,F, | G,G,F,G, _A,G,CB, |"C" z CB,C ECB,C |
+            G,CB,C ECB,C | z EDE FEFD | EEDE FAGF | ECDB, CEDB, |
+            CG,A,B, CEDB, |CCB,C DCDB, | z cBc dcdB | z2 c'2 z4 |] `,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+        ],
+        level: 'intermediate',
+        description: '//TODO: add description',
+      },
     },
   },
   classical_music: {
@@ -881,6 +909,26 @@ CD =EF GA |"C7" B2 =e2 e/f/g |"F/A" c2 "Bb" BA "C" GA |"F" F6 |
               'album-name': 'Notebook for Anna Magdalena Bach',
               no: 3,
               'original-key': 'Bb',
+              bpm: [80, '1/4'],
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '3/4',
+              K: 'Gm',
+            },
+            body: `|:"Gm" G>A B2 c2 | AA/B/"D/F#" c2-"D" c2 |"Gm" BB/c/ dg"Cm"cg |"Gm/D" BA/B/"Gm" G4 ::
+            "Gm" B>c"Bb" d2"F/A" f2 |"Bb" dc/B/ "F"A/B/c/A/"F7" F2 |"Bb/D" fd"Bb/F"Bf "Eb"g/f/e/d/ |"Cm" ec"F7" Ae "Bb/D"f/e/d/c/ |
+            "Bb" dc/d/"Eb/G" ed"Cm/Eb" cB |"F" A/B/c/A/"Bb/D" B2 B,2 |"Bb" d2"Cm" e2"Eb" G2 |"D" ^FF/G/ AD FA |
+            "Bb" d2"Cm" e2"Eb" G2 |"D" ^FF/G/ AD FA |"Bb" dd/e/"Gm" dd/e/"Gm/Bb" dg |"Gm/D" BA/B/"Gm" G2 G,2 :| `,
+            meta: {
+              title: 'Polonaise in G minor',
+              'sub-title': 'BWV Anh. 119',
+              composers: ['Johann Sebastian Bach'],
+              'album-name': 'Notebook for Anna Magdalena Bach',
+              no: 3,
+              'original-key': 'Gm',
               bpm: [80, '1/4'],
             },
           },
