@@ -662,9 +662,27 @@ const abcTunes = {
     urlName: 'advance_pieces',
     description: 'Take your reading skill to the next level with more complex piano pieces',
     books: {
-      piano_pieces_collection_book_1: {
-        name: 'Piano Pieces Collection Book 1',
+      piano_pieces_collection_1: {
+        name: 'Piano Pieces Collection 1',
         tunes: [
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'C',
+            },
+            body: `"C" e4 edcd- |"G/B" d G2 G- G c2 c- |"Am" c8 |"F" z8 |
+            "C" e4 edcd- |"G/B" d G2 G- G d2 c- |"Am" c8 |"F" z4 z2 cd |
+            "C" ecde gedc |"G/B" dBcd gdcB |"Am" c a2 e- e c2 A- |"F" AccA ccAc |
+            "C" e4 edcd- |"G/B" d G2 G- G F2 E- |"Am" E8 | z4 z2 g2 |
+            "F" a4 a2 c'a- |"C" ag- g2 z2 de |"Dm" fedA fedA |"Am" decA- AAce |
+            "F" acfa acc'a |"C" gcef gcde |"Dm" fAde fedA |"Am" decA- AGAc |
+            "F" dedc AGAc |"G" dedc AGAc |"Am" d2 ec- cA-Ac |"G" d2 ed- dcAG |
+            "F" Acde dcAG |"G" Acde dcAG |"Am" A2 cA- A4 | z8 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
           {
             header: {
               L: '1/8',
@@ -725,15 +743,17 @@ const abcTunes = {
               M: '4/4',
               K: 'Dm',
             },
-            body: `z8 z2 D2F2G2 |"Dm" A4 A2G2 A2d2A2G2 |"F" GFF2- F4- F2FG A2GF |"C" GFE2- E4- ECDE FGFE |
-            "Dm" FGFE D4 z2 D2F2G2 |"Bbmaj7" A4 A2GA-"C" A2<d2 A2GF |"Dm" GFF2- F4- F2FG A2GF |"Am7" GFE2 C4- CCDE FGFE |
+            body: `D2 F2G2 |"Dm" A4 A2G2 A2d2A2G2 |"F" GFF2- F4- F2FG A2GF |"C" GFE2- E4- ECDE FGFE |
+            "Dm" FGFE D4 z2 D2F2G2 |"Bbmaj7" A4 A2GA- "C" A2<d2 A2GF |"Dm" GFF2- F4- F2FG A2GF |"Am7" GFE2 C4- CCDE FGFE |
             "Dm" FED2- D4 z2 d2f2g2 |"Dm" a4 a2g2 a2d'2a2g2 |"F" gff2- f4- f2fg a2gf |"C" gfe2 gfe2- ecde fgfe |
-            "Dm" fed2 fed2 z2 dd ffgg |"Bbmaj7" a4 a2ga-"C" a2<d'2 a2gf |"Dm" gff2- f4- f2fg a2gf |"Am7" gfe2 gfe2- ecde fgfe |
+            "Dm" fed2 fed2 z2 dd ffgg |"Bbmaj7" a4 a2ga- "C" a2<d'2 a2gf |"Dm" gff2- f4- f2fg a2gf |"Am7" gfe2 gfe2- ecde fgfe |
             "Dm" fed2- d4 z2 D2F2G2 |"Dm" A4 A2GA- A2<d2 A2GF |"F" GFF2- F4- F2FG A2GF |"C" GFE2- E4- ECDE FGFE |
-            "Dm" FGFE D4 z2 D2F2G2 ||[K:Eb]"Dm7b5" A4 A2GA-"G7" A2<=B2 c2de |"Cm" dee2- e4-"Cm/Bb" e2ed c2de |"Fm/Ab" def2 def2-"Fm7" fagf"Bb" edef |
-            "Eb" efg2- g4"Eb/D" z2 c2e2f2 |"Cm" g4 g2f2 g2c'2g2f2 |"Eb" fee2- e4- e2ef g2fe |"Bb" fed2 fed2- dBcd efed |
-            "Cm" edc2 edc2"Cm/Bb" z2 cc eeff |"Abmaj7" g4 g2fg-"Bb" g2<c'2 g2fe |"Cm" fee2- e4-"Dm7b5" e2de"G7" f2ed |"Fm7" edc2 cBA2"Dm7b5" AGF2 FED2 |
-            "Bbdim" _D6 =D2"A7" F4 =E4 ||[K:F]"Bbmaj7" A4 A2GA-"C" A2<d2 A2GF |"Dm" GFF2- F4- F2FG A2GF |"Am7" GFE2 GFE2- E2C2F2E2 |"Dm" FED2- D4 z8 |] `,
+            "Dm" FGFE D4 z2 D2F2G2 ||[K:Eb] "Dm7b5" A4 A2GA- "G7" A2<=B2 c2de |"Cm" dee2- e4- "Cm/Bb" e2ed c2de |
+            "Fm/Ab" def2 def2- "Fm7" fagf "Bb" edef |"Eb" efg2- g4 "Eb/D" z2 c2e2f2 |"Cm" g4 g2f2 g2c'2g2f2 |
+            "Eb" fee2- e4- e2ef g2fe |"Bb" fed2 fed2- dBcd efed |"Cm" edc2 edc2 "Cm/Bb" z2 cc eeff |
+            "Abmaj7" g4 g2fg- "Bb" g2<c'2 g2fe |"Cm" fee2- e4- "Dm7b5" e2de "G7" f2ed |
+            "Fm7" edc2 cBA2 "Dm7b5" AGF2 FED2 |"Bbdim" _D6 =D2 "A7" F4 =E4 ||[K:F] "Bbmaj7" A4 A2GA- "C" A2<d2 A2GF |
+            "Dm" GFF2- F4- F2FG A2GF |"Am7" GFE2 GFE2- E2C2F2E2 |"Dm" FED2- D4 z8 |] `,
             meta: {
               C: 'Irad Doron',
             },
@@ -794,6 +814,168 @@ const abcTunes = {
             "Dm" fAfA fAfg-"Gm/Bb" gfdB- BBde |"A7" fe^cA- AAce"Dm" fgef dAde |
             "Bb" fBfB fBfg-"C" gaba- aefg |"Am7" gaba-"A7" abc'b bac'b bac'b |
             "Gm" d'c'c'b c'bc'a"Gm6" c'bba babg |"Dm/A" a8"A7" a8 |"Dm" d'8- d'8 |] `,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Dm',
+            },
+            body: `"Dm" z AdA "Gm" BdGB |"C" EGCE "F" FACE |"Dm" DAdA "Gm" BdGB |"A" ^ceAc "Dm" dAGA |
+            "Dm" FAdA "Gm" BdGB |"C" EGCE "F" FACE |"Dm" DAdA "Gm" BdGB |"A" ^ceAc "Dm" d2 d2 |
+            "Eb" _egBd "F7" ceAc |"Gm" BdGB "Dm" AdFA |"Eb" G_eBd "A" ^c=eAc |"Bb" dfBd "A" ^ceAc |
+            "Dm" dAdA "Gm" BdGB |"C" EGCE "F" FACE |"Dm" DAdA "Gm" BdGB |"A" ^ceAc "Bb" dfBd |
+            "A" eg^ce "Gm7" dfBd |"A7" ^ceAc "Dm" dAdA | dAdA "Gm" BdGB |"C" EGCE "F" FACE |
+            "Dm" DAdA "Eb" BG_ed |"A" ^ceAc "Dm" dfAd |"Eb" _egBd "F7" ceAc |"Gm" BdGB "Fm" _AcFA |
+            "C7" GBEG "Db" F_A_DF |"C7" EGCE "Fm" FCFC |"Bbm" _DFB,D "Bbdim" G,E=D^C |"A7" GFEB AGed |
+            "Dm" ^cdAd "Gm" BdGf |"C" egcb "F" bafg |"Bbmaj7" afaf "Gm" bg d2 |"A7" bg ^c2 "Dm" c2 d2 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Gm',
+            },
+            body: `"Gm" z DdB"Ebmaj7" A G3 |"F" B A3 z2 z E |"Gm" DGdB"Ebmaj7" AGFE |"F" D C3 E D2 C |
+            "Gm" B,2 dB "Ebmaj7" AGdc |"F" BAed "D7" cfed |"Gm" cBgb "Ebmaj7" agfe |"F" d c3 "F#dim" e d2 c |
+            "Gm7" d2 de "Ebmaj7" fBcd |"Cm7" e3 G "D7" ^FdAc |"Ebmaj7" BdGB "D7" ^FGcB |"Gm" e d3 c B3 |
+            "Bbmaj7" d2 de "F" fBcd |"Eb" e3 G "D7" ^FdAc |"Cm7" Be^FG "D7" BAcB |"Gm" A G3 z4 |
+            "Gm" z DdB "Ebmaj7" (3AGB (3AcB |"F" (3BAc (3Bdc "F#dim" (3cBd (3ced | 
+            "Gm" (3dBd (3gab "Ebmaj7" (3agf (3efe |"F" (3dce (3dcB "F#dim" (3cBd (3cBA |
+            "Gm" (3BGB (3def "Ebmaj7" (3fBc (3Bcd |"Cm7" e3 G "D7" (3^FAd (3ABc |
+            "Ebmaj7" (3Bcd (3GAB "D7" ^FGcB |"Gm" e d3 c B3 |"Bbmaj7" d2 (3dcd "F" (3fBc (3Bcd |
+            "Eb" e3 G "D7" ^FdAc |"Cm7" Be^FG "D7" BAcB |"Gm" A G3 z4 |
+            "Gm" z DdB "Ebmaj7" A G3 |"F" B A3 z2 z z |"Ebmaj7" z DdB "Cm7" A G3 |"C#dim" B A3- "Dsus4"A2- "D7" A2 |"Gmaj7" =B4 z4 |] `,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Cm',
+            },
+            body: `"Cm7" EBed- "F7" dBcd |"Bbmaj7" cBdF- "G7" F3 D |"Cm7" EBed- "F7" dBcd |"Bbmaj7" fd- d2 "G7" z2 z d |
+            "Cm7" eBEd- "F7" dBcd |"Bbmaj7" cBFE "G7" AGDF |"Cm7" EGBd- "F7" dGBB- |"Bb6" B4 z4 |]
+            "Gm7" Bfb=a- "A7" a=efg |"Dm" g/f/=a/d/- d/g/f/a/ "Am/C" =ee/d/ g/e/d/c/ | 
+            "Bbmaj7" d/c/d/F/ d/G/d/=A/ "A7" B/A/B/A/- AB |"D7" c2 B2 =A4 |
+            "Gm7" Bfb=a- "A7" a=efg |"Bbmaj7" =a/g/c'/f/- fg/a/ "F/A" g/f/c'- c'2 |"Gm" g/f/b/d/- df/g/ "Dm" f/=e/=a- a2 |
+            "Eb" e/d/g/c/- cB "Bb" d/c/f- fB |"F" =A2 G2 F4 |]"Cm7" EBed- "F7" dBcd |
+            "Bbmaj7" cBdF- "G7" F3 D |"Cm7" EBed- "F7" dBcd |"Bbmaj7" fd- d2 "G7" z2 z d |
+            "Cm7" eBEd- "F7" dBcd |"Bbmaj7" cBFE "G7" AGDF |"Cm7" EGBd- "F7" dGBB- |"Bb6" B4 z4 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/16',
+              M: '4/4',
+              K: 'Dm',
+            },
+            body: `"Dm" z2 d2A2B2- "Gm" BdcB cBAG |"F" z cAG AGF2 "C" GcGF GFEF- |
+            "Dm" F2d2A2B2- "Gm" BdcB cBAG |"F" A2G2 F2GG- "C" G8 |
+            "Dm" z2 d2A2B2- "Gm" BGAB ABcd |"F" z Acd cdf2 "C" z cdf dffd |
+            "Dm" f2f2^c2d2- "Gm" dgfe fedc |"A7" z ^cBA BAG2 z bag fede |
+            "Dm" fagf "Am/C" egfe "Bbmaj7" d8 |"Dm" fagf "Am/C" edeg "Bbmaj7" fed2- d4 |
+            "Dm" fagf "Am/C" egfe "Bbmaj7" dfed "F/A" cedc |"Gm" BdcB "F" AcBA "Em7b5" GBAG "Dm" FAGF |
+            "Bbmaj7" EDFE GFAG BAcB dced |"C7" fegf agba c'bd'c' bagf |
+            gfag fedc BAGF EDEF | GABc defe gfag fede |
+            "Dm" f2d2A2B2- "Gm" BdcB cBAG |"F" z cAG AGF2 "C" GcGF GFEF- |
+            "Dm" F2d2A2B2- "Gm" BdcB cBAG |"F" A2G2 F2GG- "C" G8 |
+            "Dm" z2 d2A2B2- "Gm" BGAB ABcd |"F" z Acd cdf2 "C" z cdf dffd |"F6" f2dc AGFD F8 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Dm',
+            },
+            body: `"Dm" e2 FA- A2 ef |"Gm/Bb" e2 GB- B2 ef |"F/A" gfcA- Acfg |"Am" edcA- AAcd |
+            "Dm" e2 FA- A2 ef |"Gm/Bb" e^cdG Bdef |"F/A" gfcA gfcA |"Am" decA d e3 |
+            "Dm" e/f/e/d/ ed- d/A/d/e/ f/e/d/c/ |"Gm/Bb" d/e/d/c/ dc- c B2 A |"F/A" c/A/F Fc/A/ F>F c/B/A/B/ |
+            "Am" c/A/E E>c d e3 |"Dm" e/f/e/d/ ed- d/A/f/g/ a/g/f/e/ |"Gm/Bb" g/a/g/f/ gf- f e2 d |
+            "F/A" f/c/A Af/c/ A>A f/e/d/e/ |"Am" e/d/c/d/ e2 d e3 |"Dm" e2 FA- A2 ef |
+            "Gm" e2 DE- E2 FG |"Bbmaj7" ADcB- B A2 G |"Am7" GEBA- A G2 F |"Dm" E2 F,A,-"Dm/C" A,2 E2 |
+            "Bbmaj7" F, A,2 E-"Am" EGAc |"Bbmaj7" d>e- ef- f<g ab |"Am" b>a- ag- g(3d/e/a/- a2 |
+            "Dm"!8va(! e'2 fa- a2 e'f' |"Gm/Bb" e'2 gb- b2 e'f' |"F" g'f'c'a- ac' g'2 |"Am" d' e'3- e'4 |"Dm" d''8!8va)! |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Dm',
+            },
+            body: ` A |"Dm" ADFd "Bbmaj7" cBAG |"F" ACAc "A7" BA GF/G/ |"Dm" ADFd "Gm/Bb" d^cde |
+            "A" ^cBGA "A7" gfde |"Dm" f4- "Gm" f2 de |"A7" e^cBG =c B2 A |
+            "Dm" ADFd "Bbmaj7" cBAG |"F" ACAc "A7" BA GF/G/ |"Dm" ADFd "Gm/Bb" d^cde |
+            "A" (3^cBA (3=cBA- A2 z a/g/ |"Dm" fd de/f/ "Am/C" ea/e/ ca/g/ |
+            "Dm" fd de/f/ "Am/C" ea aa/g/ |"Dm" fd de/f/ "Am/C" ea/e/ cc'/b/ |
+            "Bbmaj7" a/b/b/a/ ag/a/ "A7" a/c'/c'/b/ aa/g/ |"Dm" fd de/f/ "Am/C" ea/e/ ca/g/ | 
+            "Dm" fd de/f/ "Am/C" ea aa/g/ |"Dm" ff/e/ de/f/ "Am/C" ea/e/ cc'/b/ | 
+            "Bbmaj7" a/b/b/a/ a/g/g/f/ "A7" f/e/e/^d/ e2- | e2 ^c2 B2 A2 |
+            "Dm" ADFd "Bbmaj7" cBAG |"F" ACAc "A7" BA GF/G/ |"Dm" ADFd "Gm/Bb" d^cde |
+            "A" ^cBGA "A7" gfcd |"D7" _edAB "D7/F#" cBGA |"Eb/G" BA^FG "D7" F_EDC |
+            "Gm" B,G, G,C/B,/ "Dm" A,D/A,/ F,G/F/ |"Cm" _EC CF/E/ "Gm" DG/D/ B,B/A/ | 
+            "Em7b5" GE Ee/d/ "A7" ^cc/=B/ Ag/f/ |"Gdim" ee/d/ ^cb/a/ "A7" gg/f/ ec'/b/ | 
+            "Bbmaj7" ac'/b/ ac'/b/ ac'/b/ a/c'/b/a/ |c'/b/a/c'/ b/a/c'/b/ a/b/c'/d'/ c'/b/a/g/ | 
+            "Dm" adfd' "Bbmaj7" c'3 g |"Gm" fe^cd "Dm/A" "A7" d3 d |"Gm/D" d4- "D" d4 |]`,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/8',
+              M: '4/4',
+              K: 'Eb',
+            },
+            body: `"Eb" egbc' bgeg |"Fm" ac'fa "Bb" dfBd |"Eb" egBe "Ab" ceAc |"Bb" dfBd "Eb" eBef |
+            "Eb" egbc' bgeg |"Fm" ac'fa "Bb" dfBd |"Eb" egBe "Ab" ceAc |"Bb" dfBd "Eb" efed |
+            "Cm" cega gece |"Dm7b5" fadf "G" =BdGB |"Cm" ceGc "Fm" AcFA |"G" =BdGB "Cm" cGcd |
+            "Cm" egc'=b c'bd'c' |"G" =bd'gb df=Bd |"Ab" ceag "Dm7b5" fad'c' |"G" =bd'gb "Cm" c'gec |
+            "Eb" egbc' bgeg |"Fm" ac'fa "Bb" dfBd |"Eb" egBe "Ab" ceAc |"Bb" dfBd "Eb" eBef |
+            "Ebm" e_gb_c' bgeg |"Fm7b5" a_c'fa "Bb" dfBd |"Ebm" e_gBe "Abm" _ceAc |"Bb" dfBd "Ebm" eBef |
+            "Ebm" _gbe'd' e'd'f'e' |"Bb" d'f'bd' fadf |"Cb" e_g_ce "Fm7b5" AcFA |"Bb" DFB,D "Ebm" EB,EF |
+            "Eb" EGBc BGEG |"Fm" AcFA "Bb" DFB,D |"Eb" EGB,E "Ab" CEA,C |"Bb" DFB,D FBDF |
+            BdFB dfBd |"Bdim" fadf a_c'fa |"Bb" dfBd FBdf |"Eb" egBe GBEG | B,EG,B, E,4 |] `,
+            meta: {
+              C: 'Irad Doron',
+            },
+          },
+          {
+            header: {
+              L: '1/16',
+              M: '4/4',
+              K: 'Cm',
+            },
+            body: `e2g'2d'2 |:"Cm" f'2e'2g2e'2 "Ab" d'2c'2f2b2 |"Eb" a2g2B2e2 "Bb" d2e2g'2d'2 | 
+            "Cm" f'2e'2g2e'2 "Ab" d'2c'2f2d2 |$"Eb" e2d2e2f2 "Bb" d2c2d2f2 |"Cm" f2e2G2e2 "Ab" d2c2F2B2 | 
+            "Eb" G2A2B2E2 "Bb" D2E2F2f2 |$"Cm" f2e2 G2ba "Ab" g2f2e2c'2 |"Eb" b2a2g2a2 "Bb" d6 e2 | 
+            "Cm7" e2!8va(!e'f' g'2g'2 "Abmaj7" g'2g'f' e'g'f'e'!8va)! |"Eb"!8va(! e'f'e'f' g'2bc'"Bb" d'e'd'e' f'e'd'e' |
+            "Cm7" e2e'f' g'2g'2 "Abmaj7" g'2g'f' e'g'f'e' |1"Eb" e'2b2g2e2 "Bb" d2e2g'2d'2!8va)! :|2
+            "Eb"!8va(! e'2b2g2e2 "Bb" d2e2d2e2!8va)! ||"Cm" E2ef g2g2 "Abmaj7" g2gf egfe |
+            "Eb" efef g2Bc "Bb" dede fede |"Cm" E2ef g2g2 "Abmaj7" g2gf egfe |
+            "Eb" e2B2G2E2 "Bb" DEEF FGFE |"Cm" EGcd efgf "Abmaj7" gfgf egfe |
+            "Eb" efef gBce "Bb" dede fede |"Cm" EGcd efgf "Abmaj7" gfba aggf |
+            "Eb" gfba aggf "Bb" feed dede |"Cm" E2ef g2g2 "Abmaj7" g2gf egfe | 
+            "Eb" efef g2Bc "Bb" dede fede |"Cm" E2ef g2g2 "Abmaj7" g2gf egfe |
+            "Eb" e2B2G2E2 "Bb" (3D2G2F2 (3c2B2f2 | (3d2g2f2 (3c'2b2f'2 (3d'2g'2f'2 (3c''2b'2g'2 | 
+            f'4 c'4 g'4 d'4 |"Cm" f'2e'2g2e'2 "Ab" d'2c'2f2b2 |"Eb" a2g2B2e2 "Bb" d8 | 
+            "Cm" f2e2G2e2 "Ab" d2c2F2B2 |"Eb" G2E2G2A2 "Bb" D8 |"Eb" G16 |] `,
             meta: {
               C: 'Irad Doron',
             },
@@ -908,7 +1090,6 @@ const abcTunes = {
   classical_music: {
     name: 'Classical Music',
     urlName: 'classical_music',
-
     description: 'Covers to classical music.',
     books: {
       notebook_for_anna_magdalena_bach: {
@@ -1079,6 +1260,60 @@ CD =EF GA |"C7" B2 =e2 e/f/g |"F/A" c2 "Bb" BA "C" GA |"F" F6 |
           },
         ],
       },
+      bach_the_well_tempered_clavier: {
+        name: 'Bach - The Well-Tempered Clavier',
+        tunes: [
+          {
+            header: {
+              L: '1/16',
+              M: '12/8',
+              K: 'F',
+            },
+            body: `"F" fcAGAc FAc_edc "Bb" dBFEFB DFAcBA |"Gm" BGEDEG "C" CEGBAG "F" AGFEFA CEFAGF |
+            "G7" =B12 "C" cGEDEG CEG_BAG |"A7" ^c12 "Dm" dAFEFA DFA=cBA |
+            "Gm" BGEDEG "C" CEGBAG "F" AFD^CDF "Bb" B,DFAGF |"Emb5" GE^C=B,CE "A7" A,CEGFE "Dm" F2A2d2 A2F2D2 | 
+            "Gm" G2B2d2 B2G2D2 "A7" G2^c2e2 c2G2E2 |"Dm" dAFEFA DFAcBA "Bb" fdBABd FBdfed |
+            "E7" ^g12 "A7" ae^c=Bce Ace=g^fe |"D7" ^f12 "G7" gd=BABd GBd=f_ed |
+            "Cm" _ecAGAc "F" FAcedc "Bb" dBGFGB "Eb" _EGBdcB |"Amb5" cA^FEFA "D7" DFAcBA "Gm" B12 | 
+            "C7" B12 "F7" A12- |"Bb" AAFEFA DFAcBA "Gm/Bb" GdBABd GBdfed |
+            "C/Bb" egedeg cegbag "F" c'afefa "Dm" dfac'ba |"Gm" bgedeg "C" cegbag "F" afcBcf Ac_egfe |
+            "Bb" d6- dcBAGF "C7" B2g2e2 c2B2g2 |"F" AGFEFA "Bb" DFDB,G,E "F" FB,A,G,A,C F,4 z2 |] `,
+            meta: {
+              title: 'Prelude in F major',
+              'sub-title': 'BWV ?',
+              composers: ['Johann Sebastian Bach'],
+              'album-name': 'The Well-Tempered Clavier Book 1',
+              no: 11,
+              'original-key': 'F',
+              bpm: [88, '3/8'],
+            },
+          },
+        ],
+      },
+      bach_the_english_suites: {
+        name: 'Bach - The English Suites',
+        tunes: [],
+      },
+      bach_the_french_suites: {
+        name: 'Bach - The French Suites',
+        tunes: [],
+      },
+      bach_the_cello_suites: {
+        name: 'Bach - The Cello Suites',
+        tunes: [],
+      },
+      bach_keyboard_works: {
+        name: 'Bach - Keyboard Works',
+        tunes: [],
+      },
+      bach_organ_works: {
+        name: 'Bach - Organ Works',
+        tunes: [],
+      },
+      bach_inventions_and_sinfonias: {
+        name: 'Bach - Inventions and Sinfonias',
+        tunes: [],
+      },
     },
   },
   technique_etudes: {
@@ -1122,6 +1357,25 @@ CD =EF GA |"C7" B2 =e2 e/f/g |"F/A" c2 "Bb" BA "C" GA |"F" F6 |
             },
           },
         ],
+      },
+    },
+  },
+  jazz_standards: {
+    name: 'Jazz Standards',
+    urlName: 'jazz_standards',
+    description: 'Jazz standards',
+    books: {
+      ballads: {
+        name: 'Ballads',
+        tunes: [],
+      },
+      waltz: {
+        name: 'Waltz',
+        tunes: [],
+      },
+      swing: {
+        name: 'Swing',
+        tunes: [],
       },
     },
   },
