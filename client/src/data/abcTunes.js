@@ -1292,7 +1292,72 @@ CD =EF GA |"C7" B2 =e2 e/f/g |"F/A" c2 "Bb" BA "C" GA |"F" F6 |
       },
       bach_the_english_suites: {
         name: 'Bach - The English Suites',
-        tunes: [],
+        tunes: [
+          {
+            header: {
+              L: '1/16',
+              M: '3/4',
+              K: 'Am',
+            },
+            body: `"Am7" z2 e2 A2a2 gefd | edcB cBcf BeAd |"E7" ^GdBG dBGB EdcB |"Am" cBA^G ABcF BEAB | 
+"E" ^G2E2 G2B2 G2E2 |"A7" A=ge^c gece AG^FE |"D" ^F2d2 ^f2a2 f2d2 |"G7" g=fdB fdBd Gfed | 
+"C" edcB "D" Acd^f "G" gBcA |"G7" Bde=f "C7" gA_BG gABG |"Fmaj7" Acde "Bmb57" fGAF fGAF | 
+"Em" GEGB "Am7" eFGE eFGE |"Dm" FDFA "G7" dEFD dEFD |"Cmaj7" EDCB, C^G,A,E DB,CA, | 
+"E7" B,DB,^G, DB,G,B, E,DCB, |"A7" CA,^CE GECE A,GFE |"Dm" FA,DF "B7" A^F^DF B,A^GF | 
+"E7" ^GEGB dBGB EdcB |"Am7" c2e2 A2a2 gefd |"E" ba^g^f gfgb egac |"Bmb57" dfcf Bfcf BfAf | 
+"E" ^GBeE "Am" AceE "E7" GBdE |"Am" cBAG FEDE "Dm" FEFc |"G" BAGF EDCD "C" EDE_B | 
+"F" AGFE "Dm" FEFA "E7" ^GBAc |"G#dim" BcdB ^GEFD ECDB, |"Am" CEA^G ADEC DB,CA, | 
+"E" ^G,EBA BEFD ECDB, |"Am" CDEB, C2D2 "E" C2B,2 |"F" A,B,C^G, A,EFB "E" EAD^G | 
+"Am" CEA2- "E" A2^G,2 "F" A,CB,D |"E" ^G,B,DF DB,G,B, E,DCB, |"Am" CEA2- "E" A2^G2 "F" AcBd | 
+"E" ^GBdf dBGB EdcB |"Am" cea2- "E" a2^g2 "F" ac'ba |"E" ^g^fgb agac' gfgb | ^fefa =fefb edea | 
+dcd^g edea dcdg | cBc^f dcd^g cBcf | BABe dBcA B^GA^F | ^G^FGB E^DEG =DCD=F | 
+B,A,B,D ^G,^F,G,B, E,2 z2 | z DCB, FDCB, ^GDCB, | BFED ^GFED BFED | d^G^FE BGFE dBAG | 
+fedc BA^G^F EDCB, |"Am" A,2e2 A2a2 "G" gefd |"C" eBc^G "F" Acfd "E" ecdB | 
+"Am" cBc^G Acec "Bmb5" dBcA |"E" BAB^G "F" AGAf "E" ecdB |"Am" cBA^G ABcf "G" ecdB | 
+"C" cBA^G"F" ABcd "E" cABG |"Am" ABcA ^GAcA "G#mb5" BGA^F |"E" ^GFED "Am" CB,CA "E" B,AB,G | 
+"Am" A2E2 EFE2 E2E2 |"Dm" F2D2 DED2 "G" D2D2 |"C" E2G2 GAG2 G2G2 |"B7" A2^F2 FGF2 F2F2 | 
+"Em" G2B2 E2e2 "D/F#" dBcA |"G" BAG^F "Em" GFGc "D" FBEA |"B7" ^DA^FD AFDF B,AGF | 
+"Em" G2B,2 B,CB,2 B,2B,2 |"Am" C2A,2 A,B,A,2 "D" A,2A,2 |"G" B,2D2 DED2 D2D2 | 
+"F#7" E2^C2 CDC2 C2C2 |"Bm" DB,D^F BDFB d2d2 |"E7" dE^GB dBGB EdcB |"Am" cA,CE ACEA c2c2 | 
+"D7" cD^FA cAFA DcBA |"G" B^FGB DFGB DFGB |"Am7" c^FGc DFGc DFGc |"G/B" d^FGd DFGd DFGd | 
+"C" EDEd EDEd EDEd |"Am" EDEc EDEc EDEc |"D7" ^FEFc FEFc FEFc |"G/D" G^FGB GFGB GFGB | 
+"C#mb5/D" G^FGe GFGe GFGe |"D7" ^FDFA "Bmb5" dE=FD "G7" dEFD |"C" ECEG "Am" cDEC "D7" cDEC | 
+"Bm" D2d2 ded2 d2d2- |"Am" d2c2 cdc2 c2c2 |"Em" BAG^F GFGc FBEA |"B7" ^DcBA ^FcBA AcBA | 
+B,AG^F ^DAGF FAGF | A,^FE^D CFED _EF=ED | A^FE^D cFED BAGF |"Em" G2B2 E2e2 "Bm" dBcA | 
+"G" B^FG^D "C" EGcA "B7" BGAF |"Em" G^FG^D EGBG "D#mb" AFGE |"B7" ^FEF^D "C" EDEc "B7" BGAF | 
+"Em" G^FE^D EFGc "Bm" BGAF |"Em" G^FE^D "C" EFGA "B7" GEFD |"Em" E^FGE ^DEGE "D#mb5" FDE^C | 
+"B7" ^DcBA "Am7" GABc "B7" ^F2>E2 |"Em" E2G2 GAG2 G2G2 |"A7" _B2G2 GAG2 GBAG |"Dm" F2F2 FGF2 F2F2 | 
+"G7" d2F2 FGF2 FAGF |"C" EB,CE G,B,CE G,B,CE |"Dm" FB,CF G,B,CF "G7" G,B,CF | 
+"C" GB,CG G,B,CG G,B,CG |"F" A,G,A,G A,G,A,G A,G,A,G |"Dm/F" A,G,A,F A,G,A,F A,G,A,F | 
+"G7" B,A,B,F B,A,B,F B,A,B,F |"C/G" CB,CE CB,CE CB,CE |"Cdim/G" CB,C_E CB,CE CB,CA | 
+"G7" B,DF_A FDB,G, z4 |"F#dim" c4 _E4 "G/F" z2 B2 |"C/E" c2>d2 "G7" d6 c2 |"C" c2e2 A2a2 gefd | 
+"Am" edcB cBcf BeAd |"E7" ^GdBG dBGB EdcB |"Am" cBA^G ABcF BEAB |"E" ^G2E2 G2B2 G2E2 | 
+"A7" Age^c gece AG^FE |"D" ^F2d2 ^f2a2 f2d2 |"G7" gfdB fdBd Gfed |"C" edcB "D" Acd^f "G" gBcA | 
+"G7" Bdef "C7" gA_BG gABG |"F" Acde "Bmb5" fGAF fGAF |"Em" GEGB "Am" eFGE eFGE | 
+"Dm" FDFA "G7" dEFD dEFD |"C" EDCB, C^G,A,E DB,CA, |"E" B,DB,^G, DB,G,B, E,DCB, | 
+"A7" CA,^CE GECE A,GFE |"Dm" FA,DF "B7" A^F^DF B,A^GF |"E7" ^GEGB dBGB EdcB |"Am" c2e2 A2a2 gefd | 
+"E7" ba^g^f gfgb egac |"Bmb5" dfcf Bfcf BfAf |"E" ^GBeE "Am" AceE "E" GBdE | 
+"Am" cBAG FEDE "Dm" FEFc |"G" BAGF EDCD "C7" EDE_B |"F" AGFE "Dm" FEFA "E7" ^GBAc | 
+"G#dim" BcdB ^GEFD ECDB, |"Am" CEA^G ADEC DB,CA, |"E" ^G,EBA BEFD ECDB, | 
+"Am" CDEB, C2D2 "E" C2B,2 |"F" A,B,C^G, A,EFB "E" EAD^G |"Am" CEA2- "E" A2^G,2 "F" A,CB,D | 
+"E" ^G,B,DF DB,G,B, E,DCB, |"Am" CEA2- "E" A2^G2 "F" AcBd |"E" ^GBdf dBGB EdcB | 
+"Am" cea2- "E" a2^g2 "F" ac'ba |"E" ^g^fgb agac' gfgb | ^fefa =fefb edea | dcd^g edea dcdg | 
+cBc^f dcd^g cBcf | BABe dBcA B^GA^F | ^G^FGB E^DEG =DCD=F | B,A,B,D ^G,^F,G,B, E,2 z2 | 
+z DCB, FDCB, ^GDCB, | BFED ^GFED BFED | d^G^FE BGFE dBAG | fedc BA^G^F EDCB, | 
+"Am" A,2e2 A2a2 "G" gefd |"C" eBc^G "F" Acfd "E" ecdB |"Am" cBc^G Acec "Bmb5" dBcA | 
+"E" BAB^G "F" AGAf "E" ecdB |"Am" cBA^G ABcf "G" ecdB |"C" cBA^G "F" ABcd "E" cABG | 
+"Am" ABcA ^GAcA "G#mb5" BGA^F |"E" ^GFED "Am" CB,CA "E" B,AB,G | A12 |] `,
+            meta: {
+              title: 'Prelude',
+              'sub-title': 'BWV ?',
+              composers: ['Johann Sebastian Bach'],
+              'album-name': 'The English Suite No. 2',
+              no: 1,
+              'original-key': 'Dm',
+              bpm: [null, null],
+            },
+          },
+        ],
       },
       bach_the_french_suites: {
         name: 'Bach - The French Suites',
