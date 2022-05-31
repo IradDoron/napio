@@ -17,6 +17,13 @@ function Book({ book, category }) {
     setCurrPage(1);
   }, [book]);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [currPage]);
+
   function handlePageChange(e, p) {
     setCurrPage(p);
   }
@@ -33,6 +40,14 @@ function Book({ book, category }) {
           )}
         />
         <RenderPage pageData={bookPages[currPage - 1]} />
+        <Pagination
+          onChange={handlePageChange}
+          count={bookPages?.length}
+          page={currPage}
+          renderItem={(item) => (
+            <PaginationItem components={{ previous: ArrowForwardIcon, next: ArrowBackIcon }} {...item} />
+          )}
+        />
       </div>
     </>
   );
