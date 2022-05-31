@@ -6,8 +6,11 @@ import BookTemplate from '../BookTemplate/BookTemplate';
 import { NavLink, Link, Route, Routes, Outlet, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-// import material ui components
-import { Stack, Typography, Button } from '@mui/material';
+// import mui components
+import { Stack, Typography, Button, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+
+// import icons
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Category({ category }) {
   const [books, setBooks] = useState(null);
@@ -17,19 +20,25 @@ function Category({ category }) {
 
   return (
     <>
-      <Stack sx={{ margin: '20px 0' }}>
-        <Typography>{category.name}</Typography>
-        <Typography>{category.description}</Typography>
-        <Stack direction="row" component="nav">
-          {books?.map((book, index) => {
-            return (
-              <NavLink key={index} to={`${category.urlName}/${book}`}>
-                <Button> {category.books[book].name}</Button>
-              </NavLink>
-            );
-          })}
-        </Stack>
-      </Stack>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography>{category.name}</Typography>
+          <Typography sx={{ color: '#999', marginRight: 8 }}>{category.description}</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Stack sx={{ margin: '20px 0' }}>
+            <Stack direction="row" component="nav">
+              {books?.map((book, index) => {
+                return (
+                  <NavLink key={index} to={`${category.urlName}/${book}`}>
+                    <Button> {category.books[book].name}</Button>
+                  </NavLink>
+                );
+              })}
+            </Stack>
+          </Stack>
+        </AccordionDetails>
+      </Accordion>
     </>
   );
 }

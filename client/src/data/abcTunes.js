@@ -67,9 +67,9 @@ tags: [],
 
 const abcTunes = {
   first_steps: {
-    name: 'First Steps',
+    name: 'צעדים ראשונים',
     urlName: 'first_steps',
-    description: 'All the books for begginers.',
+    description: 'סדרת הספרים לפסנתרנים בתחילת הדרך',
     books: {
       the_middle_octave: {
         name: 'The Middle Octave',
@@ -657,6 +657,9 @@ const abcTunes = {
       },
     },
   },
+
+  /*
+
   advance_pieces: {
     name: 'Advance Pieces',
     urlName: 'advance_pieces',
@@ -1444,6 +1447,8 @@ z DCB, FDCB, ^GDCB, | BFED ^GFED BFED | d^G^FE BGFE dBAG | fedc BA^G^F EDCB, |
       },
     },
   },
+
+  */
 };
 
 export default abcTunes;
