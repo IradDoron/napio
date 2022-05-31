@@ -670,6 +670,102 @@ const the_middle_octave = {
           },
         },
       },
+      {
+        tune: {
+          header: {
+            L: '1/8',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"C" C4 E2 GA- |"F" A6 GE- |"C" E6 FE |"G" E2 GD- D4 |
+              "C" C4 E2 GA- |"Am" A6- AG |"Em" G6 E2 |"Dm" G2 AF- F4 |
+              "Am" E3 F EFED |"Em" DDFF"Am" ED C2 | E3 F EAED |"Em" DDFF"Am" E3 D |
+              "C" C4 E2 GF |"F" A6 GF |"Dm" E4-"G" E2 FE |"C" E2 DC- C4 |]`,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
+      {
+        tune: {
+          header: {
+            L: '1/8',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"C" C3 C G2 GE- |"Dm" EF F4 z2 |"F" EF F4 E2 |"G" DCDE D4 |
+              "Am" C3 C G2 GE |"F" G3 G C2 CE |"Dm" EF F4 E2 |"Em" DCDE D4 |
+              "F" C3 C F2 FC |"C" C3 C G2 GC |"Am" C3 C AGFE |"Dm" FEFG"G" E2 D2 | 
+              "C" C3 C G2 GE- |"Dm" EFFE EDEC |"F" z FFE"G" EDEC- |"C" C8 |] `,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
+      {
+        tune: {
+          header: {
+            L: '1/8',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"C" E6- ED |"Am" E3 E E2 DE- |"F" E3 E GFED |"G" D2 EC- C D2 C |
+              "C" E6- EE |"Am" G3 F E2 DC |"F" G G2 F E2 DC |"G" EDED- DCEC- |
+              "C" CCDC ECDC- |"Am" CCDC ECDC- |"F" CCDC GFED |"G" D2 EC- C D2 C |
+              "C" CD E4- ED |"Am" E3 E"Em" E2 DE- |"Dm" E3 E"G" FEDC- |"C" C8 |]`,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
+      {
+        tune: {
+          header: {
+            L: '1/8',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"C" CEGA- AG E2 |"Am" CEGA- A4 |"F" CEGA- AGEG |"G" GAED- D4 |
+              "Am" CEAE- E G2 E |"Em" GAED E4 |"F" EFCA- AGFE |"G" FGDE-"Am" E4 |
+              "C" CDEE E2 DC |"Em" D3 E- E4 |"Dm" CDFA- ADFA |"G" A3 G- G4 |
+              "C" CEGA- AG E2 |"Am" CEGA- A4 |"F" CEFA"G" EFDC- |"C" C8 |]`,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
+      {
+        tune: {
+          header: {
+            L: '1/8',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"C" E2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" F2 E2 D4 |
+              "C" E3 E E2 EE- |"Bmb5" ED- D4 DC- |"Am" C3 C C2 CC- |"G" CD- D4 z2 |
+              "C" z2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" FGEF DECD |
+              "C" ECCE ECCE- |"Bmb5" EDDE FEDC- |"Am" C3 C"F" C2 CC- |"C" C8 |]`,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
+      {
+        tune: {
+          header: {
+            L: '1/4',
+            M: '4/4',
+            K: 'C',
+          },
+          body: `"Dm" D2 F G |"F" A3 F |"C" G2 E D |"Dm" F4 |
+              "G" D2 F G |"F" F2"Bmb5" E3/2 D/ |"C" D E-"Am" E F/E/ |"Dm" D2"G" z E |
+              "Am" A3/2 E/ E A |"Em" G3 E |"F" F2"Bmb5" E3/2 D/ |"G" E D2 E |
+              "Am" A3/2 E/ E A |"Em" G3 G |"F" A E"G" E D |"C" C4 |]`,
+          meta: {
+            C: 'Irad Doron',
+          },
+        },
+      },
     ],
     // chapter 6
     [{ chapterHeader: 'צלילים נמוכים' }],
@@ -704,138 +800,26 @@ const the_middle_octave = {
       {
         para: 'אם זה עדיין קשה, קחו לעצמכם עוד זמן ותמשיכו לתרגל לאט, לאט. זה יגיע. אם לא היום, אז מחר. אם לא מחר אז מחרתיים. תמשיכו להתאמן בלי לוותר עד שתצליחו. תזכרו שלא כל אחד יכול להיות פסנתרן דגול, יש כאלה שזה לא בשבילם, אבל פסנתרן דגול יכול להגיע מכל מקום. גם אתם יכולים אם תתמידו ותקבעו עתים לתרגול, כל אחד לפי יכולתו.',
       },
-      {
-        para: 'בפרק האפילוג של הספר הזה תוכלו למצוא אוסף יצירות נוספות לתרגול החומר של הספר. כל היצירות כאן תהיינה בנויות מחומרי הגלם המוזיקליים שלמדתם בספר – ערכי קצב, תווים ואקורדים.',
-      },
     ],
 
-    [],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" C4 E2 GA- |"F" A6 GE- |"C" E6 FE |"G" E2 GD- D4 |
-              "C" C4 E2 GA- |"Am" A6- AG |"Em" G6 E2 |"Dm" G2 AF- F4 |
-              "Am" E3 F EFED |"Em" DDFF"Am" ED C2 | E3 F EAED |"Em" DDFF"Am" E3 D |
-              "C" C4 E2 GF |"F" A6 GF |"Dm" E4-"G" E2 FE |"C" E2 DC- C4 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" C3 C G2 GE- |"Dm" EF F4 z2 |"F" EF F4 E2 |"G" DCDE D4 |
-              "Am" C3 C G2 GE |"F" G3 G C2 CE |"Dm" EF F4 E2 |"Em" DCDE D4 |
-              "F" C3 C F2 FC |"C" C3 C G2 GC |"Am" C3 C AGFE |"Dm" FEFG"G" E2 D2 | 
-              "C" C3 C G2 GE- |"Dm" EFFE EDEC |"F" z FFE"G" EDEC- |"C" C8 |] `,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" E6- ED |"Am" E3 E E2 DE- |"F" E3 E GFED |"G" D2 EC- C D2 C |
-              "C" E6- EE |"Am" G3 F E2 DC |"F" G G2 F E2 DC |"G" EDED- DCEC- |
-              "C" CCDC ECDC- |"Am" CCDC ECDC- |"F" CCDC GFED |"G" D2 EC- C D2 C |
-              "C" CD E4- ED |"Am" E3 E"Em" E2 DE- |"Dm" E3 E"G" FEDC- |"C" C8 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" CEGA- AG E2 |"Am" CEGA- A4 |"F" CEGA- AGEG |"G" GAED- D4 |
-              "Am" CEAE- E G2 E |"Em" GAED E4 |"F" EFCA- AGFE |"G" FGDE-"Am" E4 |
-              "C" CDEE E2 DC |"Em" D3 E- E4 |"Dm" CDFA- ADFA |"G" A3 G- G4 |
-              "C" CEGA- AG E2 |"Am" CEGA- A4 |"F" CEFA"G" EFDC- |"C" C8 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" E2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" F2 E2 D4 |
-              "C" E3 E E2 EE- |"Bmb5" ED- D4 DC- |"Am" C3 C C2 CC- |"G" CD- D4 z2 |
-              "C" z2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" FGEF DECD |
-              "C" ECCE ECCE- |"Bmb5" EDDE FEDC- |"Am" C3 C"F" C2 CC- |"C" C8 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/4',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"Dm" D2 F G |"F" A3 F |"C" G2 E D |"Dm" F4 |
-              "G" D2 F G |"F" F2"Bmb5" E3/2 D/ |"C" D E-"Am" E F/E/ |"Dm" D2"G" z E |
-              "Am" A3/2 E/ E A |"Em" G3 E |"F" F2"Bmb5" E3/2 D/ |"G" E D2 E |
-              "Am" A3/2 E/ E A |"Em" G3 G |"F" A E"G" E D |"C" C4 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
-    [
-      {
-        tune: {
-          header: {
-            L: '1/8',
-            M: '4/4',
-            K: 'C',
-          },
-          body: `"C" E2 C/D/E/F/ EDEC |"Am" AE- E2- EDEC |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" E4"G" D4 |
-              "Am" C2 C/D/E/C/"F" A E2 F |"G" G D2 E"C" FEDC |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" E4"Em" D4 |
-              "F" FFFA"G" G2 G/A/G/F/ |"Em" GFED"Am" A E2 E |"F" FFFA"G" G2 AA/G/ |"Dm" A4"G" G4 |
-              "C" E2 C/D/E/F/ EDEC |"Am" AE- E2 z4 |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" EC- C2 z4 |]`,
-          meta: {
-            C: 'Irad Doron',
-          },
-        },
-      },
-    ],
+    // [
+    //   {
+    //     tune: {
+    //       header: {
+    //         L: '1/8',
+    //         M: '4/4',
+    //         K: 'C',
+    //       },
+    //       body: `"C" E2 C/D/E/F/ EDEC |"Am" AE- E2- EDEC |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" E4"G" D4 |
+    //           "Am" C2 C/D/E/C/"F" A E2 F |"G" G D2 E"C" FEDC |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" E4"Em" D4 |
+    //           "F" FFFA"G" G2 G/A/G/F/ |"Em" GFED"Am" A E2 E |"F" FFFA"G" G2 AA/G/ |"Dm" A4"G" G4 |
+    //           "C" E2 C/D/E/F/ EDEC |"Am" AE- E2 z4 |"Em" G2 G/F/E/D/"Dm" F2 F/E/D/C/ |"C" EC- C2 z4 |]`,
+    //       meta: {
+    //         C: 'Irad Doron',
+    //       },
+    //     },
+    //   },
+    // ],
   ],
   level: 'begginer',
   description: 'Learn to play tunes in the middle octave',
