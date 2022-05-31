@@ -502,6 +502,7 @@ const the_middle_octave = {
       },
     },
   ],
+  pages: [[{ chapterHeader: 'פרק 1 - שלושה צלילים ראשונים' }]],
   level: 'begginer',
   description: 'Learn to play tunes in the middle octave',
   tags: [],

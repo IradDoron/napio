@@ -7,10 +7,16 @@ import { NavLink, Link, Route, Routes, Outlet, useParams } from 'react-router-do
 import { useEffect, useState } from 'react';
 
 // import mui components
-import { Stack, Typography, Button, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import { Stack, Typography, Button, Accordion, AccordionSummary, AccordionDetails, ButtonGroup } from '@mui/material';
 
 // import icons
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
+import styled from 'styled-components';
+
+const StledP = styled.p`
+  font-size: 1.2rem;
+`;
 
 function Category({ category }) {
   const [books, setBooks] = useState(null);
@@ -26,15 +32,19 @@ function Category({ category }) {
           <Typography sx={{ color: '#999', marginRight: 8 }}>{category.description}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Stack sx={{ margin: '20px 0' }}>
+          <Stack>
             <Stack direction="row" component="nav">
-              {books?.map((book, index) => {
-                return (
-                  <NavLink key={index} to={`${category.urlName}/${book}`}>
-                    <Button> {category.books[book].name}</Button>
-                  </NavLink>
-                );
-              })}
+              <ButtonGroup variant="outlined" sx={{ textDecoration: 'none' }}>
+                {books?.map((book, index) => {
+                  return (
+                    <NavLink key={index} to={`${category.urlName}/${book}`} style={{ textDecoration: 'none' }}>
+                      <Button>
+                        <StledP>{category.books[book].name}</StledP>
+                      </Button>
+                    </NavLink>
+                  );
+                })}
+              </ButtonGroup>
             </Stack>
           </Stack>
         </AccordionDetails>
