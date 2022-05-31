@@ -13,7 +13,7 @@ import { Paper } from '@mui/material';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
 const StyledLabel = styled.p`
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 `;
 
 function PagesNav() {
