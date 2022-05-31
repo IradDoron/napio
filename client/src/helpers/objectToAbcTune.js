@@ -1,4 +1,4 @@
-export function objectToAbcTune(abcData) {
+function objectToAbcTune(abcData) {
   let abcTuneStr = '';
 
   for (let field in abcData?.header) {
@@ -8,3 +8,5 @@ export function objectToAbcTune(abcData) {
 
   return abcTuneStr ? abcTuneStr : null;
 }
+
+export default objectToAbcTune;

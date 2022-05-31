@@ -1,39 +1,38 @@
-import ScoreArea from './ScoreArea';
 import abcTunes from '../../data/abcTunes';
-import { objectToAbcTune } from '../../helpers/helpers';
 import { Pagination, PaginationItem } from '@mui/material';
 import { useEffect, useState } from 'react';
+
+import RenderPage from './RenderPage/RenderPage';
 
 // import icons
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Book({ book, category }) {
-  const [currTuneNum, setCurrTuneNum] = useState(1);
-  // const [bookTunes, setBookTunes] = useState(abcTunes[category].books[book].tunes);
+  const [currPage, setCurrPage] = useState(1);
 
-  const bookTunes = abcTunes[category].books[book].tunes;
+  const bookPages = abcTunes[category].books[book].pages;
 
   useEffect(() => {
-    setCurrTuneNum(1);
+    setCurrPage(1);
   }, [book]);
 
-  function handleTuneChange(e, p) {
-    setCurrTuneNum(p);
+  function handlePageChange(e, p) {
+    setCurrPage(p);
   }
 
   return (
     <>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', marginRight: 60 }}>
         <Pagination
-          onChange={handleTuneChange}
-          count={bookTunes?.length}
-          page={currTuneNum}
+          onChange={handlePageChange}
+          count={bookPages?.length}
+          page={currPage}
           renderItem={(item) => (
             <PaginationItem components={{ previous: ArrowForwardIcon, next: ArrowBackIcon }} {...item} />
           )}
         />
-        <ScoreArea id={`${book}-tune-${currTuneNum}`} tune={objectToAbcTune(bookTunes[currTuneNum - 1])} />
+        <RenderPage pageData={bookPages[currPage - 1]} />
       </div>
     </>
   );

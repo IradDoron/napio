@@ -13,7 +13,7 @@ function ScoreArea({ tune, id }) {
 
   return (
     <>
-      <div style={{ maxWidth: '700px', width: '100%' }}>
+      <div style={{ maxWidth: '700px', width: '100%', marginBottom: '40px' }}>
         <Paper elevation={3} id={id}></Paper>
       </div>
     </>
