@@ -1,11 +1,11 @@
 import PageHeader from '../../components/PageHeader/PageHeader';
 
-function Games() {
+function Improvisation() {
   return (
     <>
-      <PageHeader>משחקים</PageHeader>
+      <PageHeader>אלתור</PageHeader>
     </>
   );
 }
 
-export default Games;
+export default Improvisation;

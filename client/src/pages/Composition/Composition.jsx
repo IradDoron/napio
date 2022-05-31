@@ -1,10 +1,9 @@
-import ComingSoon from '../../components/ComingSoon/ComingSoon';
+import PageHeader from '../../components/PageHeader/PageHeader';
 
 function Composition() {
   return (
     <>
-      <h1>Composition page</h1>
-      <ComingSoon />
+      <PageHeader>הלחנה</PageHeader>
     </>
   );
 }

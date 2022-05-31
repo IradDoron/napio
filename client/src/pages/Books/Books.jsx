@@ -1,4 +1,5 @@
 import Category from './Category/Category';
+import PageHeader from '../../components/PageHeader/PageHeader';
 
 import abcTunes from '../../data/abcTunes';
 import BookTemplate from './BookTemplate/BookTemplate';
@@ -9,7 +10,7 @@ function Books() {
 
   return (
     <>
-      <h1>Books page</h1>
+      <PageHeader>ספרים</PageHeader>
       {categories.map((category, index) => {
         return (
           <div key={index}>

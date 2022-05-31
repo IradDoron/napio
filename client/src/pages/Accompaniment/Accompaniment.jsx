@@ -1,10 +1,9 @@
-import ComingSoon from '../../components/ComingSoon/ComingSoon';
+import PageHeader from '../../components/PageHeader/PageHeader';
 
 function Accompaniment() {
   return (
     <>
-      <h1>Accompaniment page</h1>
-      <ComingSoon />
+      <PageHeader>ליווי</PageHeader>
     </>
   );
 }

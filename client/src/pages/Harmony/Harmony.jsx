@@ -1,10 +1,8 @@
-import ComingSoon from '../../components/ComingSoon/ComingSoon';
-
+import PageHeader from '../../components/PageHeader/PageHeader';
 function Harmony() {
   return (
     <>
-      <h1>Harmony page</h1>
-      <ComingSoon />
+      <PageHeader>הרמוניה</PageHeader>
     </>
   );
 }

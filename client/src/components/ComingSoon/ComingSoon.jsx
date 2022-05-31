@@ -1,7 +1,7 @@
 function ComingSoon() {
   return (
     <>
-      <h2>Page in progress, coming soon</h2>
+      <h2>אני עדיין עובד על הדף הזה, בקרוב יהיה מוכן</h2>
     </>
   );
 }

@@ -6,8 +6,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <PagesBody />
         <PagesNav />
+
+        <PagesBody />
       </BrowserRouter>
     </>
   );

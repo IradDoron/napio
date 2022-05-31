@@ -1,11 +1,11 @@
 import PageHeader from '../../components/PageHeader/PageHeader';
 
-function Games() {
+function Home() {
   return (
     <>
-      <PageHeader>משחקים</PageHeader>
+      <PageHeader>עמוד הבית</PageHeader>
     </>
   );
 }
 
-export default Games;
+export default Home;
