@@ -28,10 +28,9 @@ function PagesBody() {
         </Route>
         <Route path="composition" element={<Composition />} />
         <Route path="improvisation" element={<Improvisation />} />
-
         <Route path="games" element={<Games />} />
       </Routes>
-      <div style={{ marginBottom: '70px' }}></div>
+      <div></div>
     </>
   );
 }

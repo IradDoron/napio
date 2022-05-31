@@ -10,8 +10,8 @@ const first_steps = {
   description: 'סדרת הספרים לפסנתרנים בתחילת הדרך',
   books: {
     the_middle_octave,
-    play_in_two_octaves,
-    chromatic_notes,
+    // play_in_two_octaves,
+    // chromatic_notes,
   },
 };
 
