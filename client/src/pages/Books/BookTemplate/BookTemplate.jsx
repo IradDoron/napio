@@ -8,8 +8,8 @@ function BookTemplate() {
   const { book, category } = params;
   return (
     <>
-      <h2>Category: {abcTunes[category].name}</h2>
-      <h2>Book: {abcTunes[category].books[book].name}</h2>
+      <h2>קטגוריה: {abcTunes[category].name}</h2>
+      <h2>ספר: {abcTunes[category].books[book].name}</h2>
       <Book category={category} book={book} />
     </>
   );
