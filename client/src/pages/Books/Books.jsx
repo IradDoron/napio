@@ -31,8 +31,7 @@ function Books() {
 
   return (
     <>
-      <PageHeader>עמוד הספרים</PageHeader>
-      <Accordion>
+      <Accordion sx={{ width: '100%', maxWidth: '700px', margin: '12px 0' }}>
         <AccordionSummary>
           <Typography>קטגוריות וספרים</Typography>
         </AccordionSummary>
@@ -65,7 +64,7 @@ function Books() {
           ) : null}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion sx={{ width: '100%', maxWidth: '700px', margin: '12px 0' }}>
         <AccordionSummary>
           <Typography>פרקים ושיעורים</Typography>
         </AccordionSummary>
