@@ -38,42 +38,44 @@ function BookNavigation({ categoryUrl, bookUrl, chapterIndex, lessonIndex }) {
 
   return (
     <>
-      <Stack direction="row">
-        <ButtonGroup variant="outlined">
-          {lessonIndex && Number(lessonIndex) === 0 ? (
-            <Button disabled onClick={(n) => changeLesson(-1)}>
-              שיעור קודם
-            </Button>
-          ) : (
-            <Button onClick={(n) => changeLesson(-1)}>שיעור קודם</Button>
-          )}
-          {lessonIndex && Number(lessonIndex) === getLessonsNames(categoryUrl, bookUrl, chapterIndex)?.length - 1 ? (
-            <Button disabled onClick={(n) => changeLesson(1)}>
-              שיעור הבא
-            </Button>
-          ) : (
-            <Button onClick={(n) => changeLesson(1)}>שיעור הבא</Button>
-          )}
-          {chapterIndex && Number(chapterIndex) === 0 ? (
-            <Button disabled color="secondary" onClick={(n) => changeChapter(-1)}>
-              פרק קודם
-            </Button>
-          ) : (
-            <Button color="secondary" onClick={(n) => changeChapter(-1)}>
-              פרק קודם
-            </Button>
-          )}
-          {chapterIndex && Number(chapterIndex) === getChapterNames(categoryUrl, bookUrl).length - 1 ? (
-            <Button disabled color="secondary" onClick={(n) => changeChapter(1)}>
-              פרק הבא
-            </Button>
-          ) : (
-            <Button color="secondary" onClick={(n) => changeChapter(1)}>
-              פרק הבא
-            </Button>
-          )}
-        </ButtonGroup>
-      </Stack>
+      {bookUrl ? (
+        <Stack direction="row">
+          <ButtonGroup variant="outlined">
+            {lessonIndex && Number(lessonIndex) === 0 ? (
+              <Button disabled onClick={(n) => changeLesson(-1)}>
+                שיעור קודם
+              </Button>
+            ) : (
+              <Button onClick={(n) => changeLesson(-1)}>שיעור קודם</Button>
+            )}
+            {lessonIndex && Number(lessonIndex) === getLessonsNames(categoryUrl, bookUrl, chapterIndex)?.length - 1 ? (
+              <Button disabled onClick={(n) => changeLesson(1)}>
+                שיעור הבא
+              </Button>
+            ) : (
+              <Button onClick={(n) => changeLesson(1)}>שיעור הבא</Button>
+            )}
+            {chapterIndex && Number(chapterIndex) === 0 ? (
+              <Button disabled color="secondary" onClick={(n) => changeChapter(-1)}>
+                פרק קודם
+              </Button>
+            ) : (
+              <Button color="secondary" onClick={(n) => changeChapter(-1)}>
+                פרק קודם
+              </Button>
+            )}
+            {chapterIndex && Number(chapterIndex) === getChapterNames(categoryUrl, bookUrl).length - 1 ? (
+              <Button disabled color="secondary" onClick={(n) => changeChapter(1)}>
+                פרק הבא
+              </Button>
+            ) : (
+              <Button color="secondary" onClick={(n) => changeChapter(1)}>
+                פרק הבא
+              </Button>
+            )}
+          </ButtonGroup>
+        </Stack>
+      ) : null}
     </>
   );
 }
