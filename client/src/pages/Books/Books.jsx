@@ -10,7 +10,7 @@ import { PagePositionContext } from '../../components/Routers/Routers';
 import books_data from '../../helpers/books_data/books_data';
 
 // imports of material ui
-import { Button, ButtonGroup } from '@mui/material';
+import { Button, ButtonGroup, Typography } from '@mui/material';
 
 // styled components
 
@@ -69,7 +69,9 @@ function Books() {
               {getChapterNames(categoryUrl, bookUrl)?.map((chapterIndexName, index) => {
                 return (
                   <li key={index}>
-                    <NavLink to={`${categoryUrl}/${bookUrl}/${index}/0`}>{chapterIndexName}</NavLink>
+                    <NavLink to={`${categoryUrl}/${bookUrl}/${index}/0`}>
+                      <Typography>{chapterIndexName}</Typography>
+                    </NavLink>
                   </li>
                 );
               })}
