@@ -10,7 +10,18 @@ function Para({ children, isItem }) {
   }, []);
 
   return (
-    <Typography m={1} mr={marginAmount} sx={{ fontSize: 20, position: 'relative' }}>
+    <Typography
+      m={1}
+      mr={marginAmount}
+      sx={{
+        fontSize: 20,
+        position: 'relative',
+        textAlign: 'start',
+        width: '100%',
+        maxWidth: '700px',
+        margin: '12px 0',
+      }}
+    >
       {children}
     </Typography>
   );
