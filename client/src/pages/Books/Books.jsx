@@ -94,7 +94,9 @@ function Books() {
               {getLessonsNames(categoryUrl, bookUrl, chapterIndex)?.map((lessonIndexName, index) => {
                 return (
                   <li key={index}>
-                    <NavLink to={`${categoryUrl}/${bookUrl}/${chapterIndex}/${index}`}>{lessonIndexName}</NavLink>
+                    <NavLink to={`${categoryUrl}/${bookUrl}/${chapterIndex}/${index}`}>
+                      <Typography>{lessonIndexName}</Typography>
+                    </NavLink>
                   </li>
                 );
               })}
