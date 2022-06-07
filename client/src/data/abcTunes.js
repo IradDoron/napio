@@ -66,12 +66,12 @@ tags: [],
 */
 
 // import categories
-import first_steps from './categories/first_steps';
+// import first_steps from '../pages/Books/categories/first_steps';
 
-const abcTunes = {
-  first_steps,
+// const abcTunes = {
+//   first_steps,
 
-  /*
+/*
 
   advance_pieces: {
     name: 'Advance Pieces',
@@ -862,6 +862,6 @@ z DCB, FDCB, ^GDCB, | BFED ^GFED BFED | d^G^FE BGFE dBAG | fedc BA^G^F EDCB, |
   },
 
   */
-};
+// };
 
-export default abcTunes;
+// export default abcTunes;

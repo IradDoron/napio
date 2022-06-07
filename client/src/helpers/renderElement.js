@@ -1,4 +1,3 @@
-import ScoreArea from '../pages/Books/ScoreArea';
 import objectToAbcTune from './objectToAbcTune';
 import { v4 } from 'uuid';
 
