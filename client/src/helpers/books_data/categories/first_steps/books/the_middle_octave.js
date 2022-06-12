@@ -2737,8 +2737,11 @@ const the_middle_octave = {
       chapterHeader: 'תרגול יצירות',
       lessons: [
         {
-          lessonHeader: 'יצירה 1',
+          lessonHeader: 'יצירה לתרגול',
           lessonElements: [
+            {
+              para: 'הרבה זמן לא תרגלנו נגינה של יצירות. עסקנו הרבה בפיתוח טכניקות ליווי ליד ימין ושילובן עם יד שמאל. בפרק הזה נחזור לתרגל יצירות סולו. ארגנתי לכם כמה יצירות נחמדות ומקווה שתהנו. מבחינת רמת קושי, היצירות בפרק הזה תהיינה הקשות ביותר בקורס. אתם עבדתם קשה כדי להגיע לכאן ואין לי ספק שתנגנו אותן כמו גדולים.',
+            },
             {
               tune: {
                 header: {
@@ -2754,6 +2757,28 @@ const the_middle_octave = {
                 "Dm" z DEF AFAB |"Am" cBAG FEDC |"G" BAGF GFED |"F" AGFE"G" DCDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B E2 A- |"F" AGFE FCDE |"G" D2 EF- FEDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B A2 c- |"F" c4 C4 |"G" D4 B4 |"C" B8 | c8 |]`,
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 B2 B3 A |
+                "C" G4 G2 FG |"F" G2 A2 A2 EF |"G" G4 F3 E |"C" E4 z4 |
+                "Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 G2 G2 F2 |
+                "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E3 D |"C" E4 z4 |
+                "Em" G4 E2 G2 |"Am" B2 A2 D2 E2 |"Dm" G2 F2 C2 D2 |"G" F2 E2 D2 C2 |
+                "Em" G2 EG"Am" BADE |"Dm" GFCD"G" FEDC |"Em" GFDE"F" AGEF |"G" BAFG"Em" cBGA |
+                "Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 G2 G2 F2 |
+                "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E4 |"C" E4 z4 |`,
               },
             },
           ],
