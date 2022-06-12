@@ -5,6 +5,7 @@ import { v4 } from 'uuid';
 import Para from '../components/BookComponents/Para/Para';
 import ListItem from '../components/BookComponents/ListItem/ListItem';
 import Tune from '../components/BookComponents/Tune/Tune';
+import TopicHeader from '../components/BookComponents/TopicHeader/TopicHeader';
 
 function renderElement(element, value, index) {
   switch (element) {
@@ -48,6 +49,9 @@ function renderElement(element, value, index) {
     }
     case 'tune': {
       return <Tune key={index} id={v4()} tune={objectToAbcTune(value)} />;
+    }
+    case 'topicHeader': {
+      return <TopicHeader key={index}>{value}</TopicHeader>;
     }
     default: {
       return <p key={index}>not in switch-case function</p>;
