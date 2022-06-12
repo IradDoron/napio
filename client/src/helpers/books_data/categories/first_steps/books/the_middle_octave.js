@@ -2803,6 +2803,28 @@ const the_middle_octave = {
             },
           ],
         },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"Am" cB c2 E2 A2- |"Dm" AE F2- "G" FD G2- |"C" GEFc "Em" G4 |"F" A4 "G" B4 |
+                "Am" c4 E2 A2 |"Em" G4- GAGA |"Dm" FAGF "C" EGFE |"G" DFED "Am" CEDC |
+                "G" D2 G2- "F" GE F2 |"Am" E2 A2- "Em" AF G2 |"F" A2 c2- "G" c2 B2 |"Dm" c2 B2 "G" A2 B2 |
+                "Am" cB c2 E2 A2- |"Dm" AE F2- "G" FD G2- |"C" GEFc "Em" G4 |"F" A4 "G" B4 |
+                "Dm" c2 F2- F2 c2 |"G" BABc BGAB |"F" ABcB AFGA |"C" G4 "Em" F2 E2 |
+                "Dm" c2 F2- F2 c2 |"G" BABc "Em" BGAB |"F" ABcB "Dm" AFGA |"G" A2 G2 "Em" F2 E2 |
+                "Am" CEAc BcAc |"Dm" DFAc BcAc |"G" DFGB ABGB |"C" CEGB ABGB |
+                "F" CEFA GAFA |"Bmb5" DEFA GAFA |"Em" DEGB AGcB |"Am" A8 |]`,
+              },
+            },
+          ],
+        },
       ],
     },
     // chapter - ליווי ביד ימין - בלוקים דינמיים
