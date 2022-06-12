@@ -2776,7 +2776,7 @@ const the_middle_octave = {
                 "Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 G2 G2 F2 |
                 "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E3 D |"C" E4 z4 |
                 "Em" G4 E2 G2 |"Am" B2 A2 D2 E2 |"Dm" G2 F2 C2 D2 |"G" F2 E2 D2 C2 |
-                "Em" G2 EG"Am" BADE |"Dm" GFCD"G" FEDC |"Em" GFDE"F" AGEF |"G" BAFG"Em" cBGA |
+                "Em" G2 EG "Am" BADE |"Dm" GFCD "G" FEDC |"Em" GFDE "F" AGEF |"G" BAFG "Em" cBGA |
                 "Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 G2 G2 F2 |
                 "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E4 |"C" E4 z4 |`,
               },
