@@ -2098,6 +2098,9 @@ const the_middle_octave = {
             {
               para: 'בשיעור הזה נעלה רמה ונתרגל גם שמיניות. כל החומר של הקורס עד כה יהיה בשימוש בשיעור הזה אז תהיו מוכנים.',
             },
+            {
+              para: 'להוסיף פה תרגילים.',
+            },
           ],
         },
       ],
@@ -2106,59 +2109,70 @@ const the_middle_octave = {
     {
       chapterHeader: 'קשת',
       lessons: [
+        // lesson - מהי קשת?
         {
-          lessonHeader: 'להוסיף שיעור',
+          lessonHeader: 'מהי קשת?',
           lessonElements: [
-            { para: 'TODO: add content' },
             {
-              lessonHeader: 'קשת',
-              lessonElements: [
-                {
-                  tune: {
-                    header: {
-                      L: '1/4',
-                      M: '4/4',
-                      K: 'C',
-                    },
-                    body: `"C" C D E D- |"F" D E F E- |"G" E F G D- |"C" D2 E2- |
-              "Am" E G C G- |"Dm" G F C2- |"F" C F C D- |"C" D2"Em" E2 |
-              "C" C D E D- |"F" D E F E- |"G" E F G D- |"Am" D2 E2- |
-              "C" E G C G- |"F" G F C2- |C F"G" C D- |"C" D2 C2 |]`,
-                    meta: {
-                      C: 'Irad Doron',
-                    },
-                  },
+              para: 'קשת משמשת לחיבור שני תווים באותו גובה לתו אחד ארוך. ',
+            },
+            {
+              para: 'להרחיב בהמשך.',
+            },
+          ],
+        },
+        // lesson - תרגול קשת
+        {
+          lessonHeader: 'תרגול קשת',
+          lessonElements: [
+            {
+              para: 'בשיעור הזה נתרגל קריאת תווים עם קשת.',
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
                 },
-                {
-                  tune: {
-                    header: {
-                      L: '1/8',
-                      M: '4/4',
-                      K: 'C',
-                    },
-                    body: `"C" E2 ED E2 GC- |"Am" C6 GF- |"F" F2 E2 F2 GG- |"G" G4 F4 |
-                    "Am" E2 ED E2 DC- |"Dm" CD- D2 F4 |"F" z2 E2 F2 ED- |"G" D2 CD- D4 |
-                    "C" E2 ED E2 CG- |"Am" GG C2 C G2 F- |"F" F2 E2 F E2 D |"G" E2 ED- D4 |
-                    "C" E2 ED E2 CG- |"Am" GG C2 C G2 F- |"F" F2 E2"G" E D2 C- |"C" C8 |]`,
-                    meta: {
-                      C: 'Irad Doron',
-                    },
-                  },
+                body: `"C" C D E D- |"F" D E F E- |"G" E F G D- |"C" D2 E2- |
+          "Am" E G C G- |"Dm" G F C2- |"F" C F C D- |"C" D2"Em" E2 |
+          "C" C D E D- |"F" D E F E- |"G" E F G D- |"Am" D2 E2- |
+          "C" E G C G- |"F" G F C2- |C F"G" C D- |"C" D2 C2 |]`,
+                meta: {
+                  C: 'Irad Doron',
                 },
-              ],
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" E2 ED E2 GC- |"Am" C6 GF- |"F" F2 E2 F2 GG- |"G" G4 F4 |
+                "Am" E2 ED E2 DC- |"Dm" CD- D2 F4 |"F" z2 E2 F2 ED- |"G" D2 CD- D4 |
+                "C" E2 ED E2 CG- |"Am" GG C2 C G2 F- |"F" F2 E2 F E2 D |"G" E2 ED- D4 |
+                "C" E2 ED E2 CG- |"Am" GG C2 C G2 F- |"F" F2 E2"G" E D2 C- |"C" C8 |]`,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
             },
           ],
         },
       ],
     },
+
     // chapter - אקורד חדש - רה מינור
     {
       chapterHeader: 'אקורד חדש - רה מינור',
       lessons: [
+        // lesson - תכירו את אקורד רה מינור
         {
-          lessonHeader: 'להוסיף שיעור',
+          lessonHeader: 'תכירו את אקורד רה מינור',
           lessonElements: [
-            { para: 'TODO: add content' },
             {
               para: 'אקורד רה מינור מורכב מהצלילים רה + פה + לה, ומסומן על ידי  ״Dm״:',
             },
@@ -2171,6 +2185,31 @@ const the_middle_octave = {
                 },
                 body: `"Dm" z |`,
               },
+            },
+          ],
+        },
+        // lesson - תרגול אקורד רה מינור
+        {
+          lessonHeader: 'תרגול אקורד רה מינור',
+          lessonElements: [
+            {
+              para: 'בשיעור הזה נתרגל את אקורד רה מינור. נתנסה במעברים בין האקורדים שלמדנו ונראה אילו מהלכי אקורדים מעניינים אפשר ליצור עם האקורד החדש שלנו.',
+            },
+            {
+              para: 'להוסיף מהלכי אקורדים.',
+            },
+          ],
+        },
+        // lesson - נגינה עם הרכב
+        {
+          lessonHeader: 'נגינה עם הרכב',
+          lessonElements: [
+            {
+              topicHeader: 'נגינה עם הרכב',
+            },
+
+            {
+              para: 'להוסיף פה סרטון.',
             },
           ],
         },
@@ -2190,10 +2229,10 @@ const the_middle_octave = {
     {
       chapterHeader: 'אקורד חדש - מי מינור',
       lessons: [
+        // lesson - תכירו את אקורד מי מינור
         {
-          lessonHeader: 'להוסיף שיעור',
+          lessonHeader: 'תכירו את אקורד מי מינור',
           lessonElements: [
-            { para: 'TODO: add content' },
             {
               para: 'אקורד מי מינור מורכב מהצלילים מי + סול + סי, ומסומן על ידי  ״Em״:',
             },
@@ -2209,6 +2248,28 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson - תרגול אקורד מי מינור
+        {
+          lessonHeader: 'תרגול אקורד מי מינור',
+          lessonElements: [
+            {
+              para: 'להוסיף מהלכי אקורדים.',
+            },
+          ],
+        },
+        // lesson - נגינה עם הרכב
+        {
+          lessonHeader: 'נגינה עם הרכב',
+          lessonElements: [
+            {
+              topicHeader: 'נגינה עם הרכב',
+            },
+
+            {
+              para: 'להוסיף פה סרטון.',
+            },
+          ],
+        },
       ],
     },
     // chapter - תרגול יצירות
@@ -2220,10 +2281,13 @@ const the_middle_octave = {
           lessonHeader: 'תרגול יצירות עם רבעים',
           lessonElements: [
             {
-              para: 'שימו לב להבדל בין האקורדים המינוריים למז׳וריים. אתם מצליחים להבדיל ביניהם מתוך שמיעה? אתם שמים לב להבדל ב- ״צבע״ שלהם? אולי לא על ההתחלה, אבל תוך כדי שאתם מנגנים, תקשיבו היטב לצלילים שאתם מנגנים. תקשיבו איך צלילים נשמעים כאשר הם מנוגנים אחד ביחד עם השני. תקשיבו היטב להרמוניות, ולאופן שבו חילופי ההרמוניות משפיעים על התחושה שאנחנו מקבלים מהמוזיקה. ',
+              para: 'בפרק הזה נתרגל היטב את כל מה שלמדנו עד עכשיו. רבעים, שמיניות, קשת, שלל אקורדים וטכניקות ליווי.',
             },
             {
-              para: 'נגנו את התרגילים הבאים, ותקפידו שאתם מנגנים את האקורדים הנכונים, עכשיו שמתחילים להיות אצלנו יותר אקורדים בארגז הכלים שלנו.',
+              para: 'למעשה למדנו את כל האקורדים של הקורס למעט אחד, שאותו נלמד יותר מאוחר. תדעו שאת כל האקורדים הנפוצים כבר למדתם. האקורד השביעי... בואו נגידש הוא טעם נרכש.',
+            },
+            {
+              para: 'נתחיל עם תרגול רבעים. נגנו את התרגילים הבאים, ותקפידו שאתם מנגנים את האקורדים הנכונים, עכשיו שמתחילים להיות אצלנו יותר אקורדים בארגז הכלים שלנו.',
             },
             {
               tune: {
@@ -2320,6 +2384,9 @@ const the_middle_octave = {
                 },
               },
             },
+            {
+              para: 'שימו לב להבדל בין האקורדים המינוריים למז׳וריים. אתם מצליחים להבדיל ביניהם מתוך שמיעה? אתם שמים לב להבדל ב- ״צבע״ שלהם? אולי לא על ההתחלה, אבל תוך כדי שאתם מנגנים, תקשיבו היטב לצלילים שאתם מנגנים. תקשיבו איך צלילים נשמעים כאשר הם מנוגנים אחד ביחד עם השני. תקשיבו היטב להרמוניות, ולאופן שבו חילופי ההרמוניות משפיעים על התחושה שאנחנו מקבלים מהמוזיקה. ',
+            },
           ],
         },
         // lesson - תרגול יצירות עם שמיניות
@@ -2391,7 +2458,6 @@ const the_middle_octave = {
         {
           lessonHeader: 'להוסיף שיעור',
           lessonElements: [
-            { para: 'TODO: add content' },
             { para: 'בנוסף לאקורד הזה נלמד קונספט חדש בתחום הקצב שנקרא ״קצב מנוקד״.' },
             { para: 'כאשר מוסיפים לערך קצב מסוים ״נקודה״ אז הוא הופך לקצב מנוקד, שזה אומר שהמשך שלו גדל ב- 50%.' },
             { para: 'במילים אחרות, לקצב מנוקד מוסיפים מחצית מערכו.' },
@@ -2453,22 +2519,7 @@ const the_middle_octave = {
                 },
               },
             },
-            {
-              tune: {
-                header: {
-                  L: '1/8',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" C4 E2 GA- |"F" A6 GE- |"C" E6 FE |"G" E2 GD- D4 |
-                  "C" C4 E2 GA- |"Am" A6- AG |"Em" G6 E2 |"Dm" G2 AF- F4 |
-                  "Am" E3 F EFED |"Em" DDFF"Am" ED C2 | E3 F EAED |"Em" DDFF"Am" E3 D |
-                  "C" C4 E2 GF |"F" A6 GF |"Dm" E4-"G" E2 FE |"C" E2 DC- C4 |]`,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
+
             {
               tune: {
                 header: {
@@ -2501,6 +2552,61 @@ const the_middle_octave = {
                 },
               },
             },
+          ],
+        },
+      ],
+    },
+    // chapter - נגינה ביד ימין - שמונה צלילים
+    {
+      chapterHeader: 'נגינה ביד ימין - שמונה צלילים',
+      lessons: [
+        {
+          lessonHeader: 'להוסיף שיעור',
+          lessonElements: [
+            { para: 'בפרק הזה סוף סוף נוכל לנגן אוקטבה אחת שלמה ולהשתמש בה לנגינת יצירות כיפיות.' },
+            { para: 'הצלילים שנלמד הם: לה, סי באוקטבה האמצעית, ו- דו באוקטבה מספר 4.' },
+          ],
+        },
+      ],
+    },
+    // chapter - תרגול
+    {
+      chapterHeader: 'תרגול',
+      lessons: [
+        // lesson - תרגול יצירות
+        {
+          lessonHeader: 'תרגול יצירות',
+          lessonElements: [
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" G2 GE G2 GE |"F" GAGE GEDC |"Dm" FGFE"G" FE D2 |"Dm" FGFE"G" D4 |
+                "C" G2 GE G2 GE |"F" A2 AG E2 GA |"Am" cBAG"Em" cB G2 |"F" cBAG"G" G4 |
+                "Am" c2 cA c2 cA |"G" BcBG"F" A2 GA |"Am" c2 cA c2 cA |"Em" G4"Dm" F2 B2 |
+                "Am" c2 cA c2 cA |"G" BcBG"F" A2 GA |"Am" c4 A4 |"Em" G4"G" F4 |
+                "C" E2 EC E2 EC |"F" DEDC ED C2 |"G" DEDC D4 |"C" E8 |]`,
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" C4 E2 GA- |"F" A6 GE- |"C" E6 FE |"G" E2 GD- D4 |
+                  "C" C4 E2 GA- |"Am" A6- AG |"Em" G6 E2 |"Dm" G2 AF- F4 |
+                  "Am" E3 F EFED |"Em" DDFF"Am" ED C2 | E3 F EAED |"Em" DDFF"Am" E3 D |
+                  "C" C4 E2 GF |"F" A6 GF |"Dm" E4-"G" E2 FE |"C" E2 DC- C4 |]`,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
             {
               tune: {
                 header: {
@@ -2517,6 +2623,29 @@ const the_middle_octave = {
                 },
               },
             },
+          ],
+        },
+      ],
+    },
+    // chapter - אקורד חדש - סי מוקטן
+    {
+      chapterHeader: 'אקורד חדש - סי מוקטן',
+      lessons: [
+        {
+          lessonHeader: 'אקורד מוק-מה?',
+          lessonElements: [
+            {
+              para: 'אז מה כבר הספקנו ללמוד עד עכשיו? למדנו לקרוא את התווים באוקטבה האמצעית, למדנו 6 אקורדים ולמדנו כמה ערכי קצב בסיסיים. ',
+            },
+            { para: 'בפרק הזה נלמד את האקורד השביעי של סולם דו מז׳ור, שנקרא ״סי מוקטן״.' },
+            {
+              para: 'זה אקורד שפחות נמצא בשימוש לעומת האקורדים המז׳וריים והמינוריים, אבל גם לאקורד הזה יכולים להיות הרבה שימושים, ואפשר ליצור איתו מוזיקה מעניינת.',
+            },
+          ],
+        },
+        {
+          lessonHeader: 'תרגול יצירות עם סי מוקטן',
+          lessonElements: [
             {
               tune: {
                 header: {
@@ -2525,9 +2654,9 @@ const the_middle_octave = {
                   K: 'C',
                 },
                 body: `"C" E2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" F2 E2 D4 |
-                  "C" E3 E E2 EE- |"Bmb5" ED- D4 DC- |"Am" C3 C C2 CC- |"G" CD- D4 z2 |
-                  "C" z2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" FGEF DECD |
-                  "C" ECCE ECCE- |"Bmb5" EDDE FEDC- |"Am" C3 C"F" C2 CC- |"C" C8 |]`,
+                "C" E3 E E2 EE- |"Bmb5" ED- D4 DC- |"Am" C3 C C2 CC- |"G" CD- D4 z2 |
+                "C" z2 ED- D C2 C |"Am" C2 DE- E4 |"F" G G2 C2 G2 F- |"G" FGEF DECD |
+                "C" ECCE ECCE- |"Bmb5" EDDE FEDC- |"Am" C3 C"F" C2 CC- |"C" C8 |]`,
                 meta: {
                   C: 'Irad Doron',
                 },
@@ -2541,72 +2670,13 @@ const the_middle_octave = {
                   K: 'C',
                 },
                 body: `"Dm" D2 F G |"F" A3 F |"C" G2 E D |"Dm" F4 |
-                  "G" D2 F G |"F" F2"Bmb5" E3/2 D/ |"C" D E-"Am" E F/E/ |"Dm" D2"G" z E |
-                  "Am" A3/2 E/ E A |"Em" G3 E |"F" F2"Bmb5" E3/2 D/ |"G" E D2 E |
-                  "Am" A3/2 E/ E A |"Em" G3 G |"F" A E"G" E D |"C" C4 |]`,
+                "G" D2 F G |"F" F2"Bmb5" E3/2 D/ |"C" D E-"Am" E F/E/ |"Dm" D2"G" z E |
+                "Am" A3/2 E/ E A |"Em" G3 E |"F" F2"Bmb5" E3/2 D/ |"G" E D2 E |
+                "Am" A3/2 E/ E A |"Em" G3 G |"F" A E"G" E D |"C" C4 |]`,
                 meta: {
                   C: 'Irad Doron',
                 },
               },
-            },
-          ],
-        },
-      ],
-    },
-    // chapter - נגינה ביד ימין - שמונה צלילים
-    {
-      chapterHeader: 'נגינה ביד ימין - שמונה צלילים',
-      lessons: [
-        {
-          lessonHeader: 'להוסיף שיעור',
-          lessonElements: [
-            { para: 'TODO: add content' },
-            { para: 'בפרק הזה סוף סוף נוכל לנגן אוקטבה אחת שלמה ולהשתמש בה לנגינת יצירות כיפיות.' },
-            { para: 'הצלילים שנלמד הם: לה, סי באוקטבה האמצעית, ו- דו באוקטבה מספר 4.' },
-          ],
-        },
-      ],
-    },
-    // chapter - תרגול יצירות
-    {
-      chapterHeader: 'תרגול יצירות',
-      lessons: [
-        {
-          lessonHeader: 'להוסיף שיעור',
-          lessonElements: [
-            { para: 'TODO: add content' },
-            {
-              tune: {
-                header: {
-                  L: '1/8',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" G2 GE G2 GE |"F" GAGE GEDC |"Dm" FGFE"G" FE D2 |"Dm" FGFE"G" D4 |
-                "C" G2 GE G2 GE |"F" A2 AG E2 GA |"Am" cBAG"Em" cB G2 |"F" cBAG"G" G4 |
-                "Am" c2 cA c2 cA |"G" BcBG"F" A2 GA |"Am" c2 cA c2 cA |"Em" G4"Dm" F2 B2 |
-                "Am" c2 cA c2 cA |"G" BcBG"F" A2 GA |"Am" c4 A4 |"Em" G4"G" F4 |
-                "C" E2 EC E2 EC |"F" DEDC ED C2 |"G" DEDC D4 |"C" E8 |]`,
-              },
-            },
-          ],
-        },
-      ],
-    },
-    // chapter - אקורד חדש - סי מוקטן
-    {
-      chapterHeader: 'אקורד חדש - סי מוקטן',
-      lessons: [
-        {
-          lessonHeader: 'להוסיף שיעור',
-          lessonElements: [
-            { para: 'TODO: add content' },
-            {
-              para: 'אז מה כבר הספקנו ללמוד עד עכשיו? למדנו לקרוא את התווים באוקטבה האמצעית, למדנו 6 אקורדים ולמדנו כמה ערכי קצב בסיסיים. ',
-            },
-            { para: 'בפרק הזה נלמד את האקורד השביעי של סולם דו מז׳ור, שנקרא ״סי מוקטן״.' },
-            {
-              para: 'זה אקורד שפחות נמצא בשימוש לעומת האקורדים המז׳וריים והמינוריים, אבל גם לאקורד הזה יכולים להיות הרבה שימושים, ואפשר ליצור איתו מוזיקה מעניינת.',
             },
           ],
         },
