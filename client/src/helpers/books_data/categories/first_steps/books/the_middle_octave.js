@@ -2825,6 +2825,28 @@ const the_middle_octave = {
             },
           ],
         },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
+                "Am" ECDE FGAG |"Dm" FDEF GABA |"G" AGBA cBAB |"C" cBcB cGEG |
+                CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
+                "Am" ECDE FGAG |"Dm" FDEF GABA |"G" AGBA cBAB |"C" cBAG FEDC |
+                "F" FCFG AGFC |"C" ECEF GFEC |"F" FCFG AGFC |"G" GDGA BAGD |
+                "Am" AEAB cBAE |"Em" GEGA BAGA |"Am" AEAB cBAE |"Dm" FGFE"G" DFED |
+                "C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
+                "Am" ECDE FGAG |"Dm" FDEF GABA |"F" AFGA "G" BABG |"C" cBcB c4 |]`,
+              },
+            },
+          ],
+        },
       ],
     },
     // chapter - ליווי ביד ימין - בלוקים דינמיים
