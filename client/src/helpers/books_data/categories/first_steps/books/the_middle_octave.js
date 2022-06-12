@@ -1950,6 +1950,97 @@ const the_middle_octave = {
             {
               para: 'בשיעור הזה נתרגל מעברי אקורדים שכוללים את האקורד החדש, לה מינור.',
             },
+            {
+              para: 'בתור התחלה תלוו את האקורדים בטכניקת שורשים. אחרי שאתם מרגישים בנוח עם זה תעברו לפירוקי רבעים. כמו כן כל תרגיל תבצעו עם מטרונום דלוק ומתקתק. תמיד טוב לעבוד ולחזק את חוש הקצב (אחרי כמה תרגילים עם מטרונום יש לכם אישור ממני לכבות אותו. אחרי כמה זמן הוא יכול לעשות חור בראש).',
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `[|: "C"z | "Am"z | "C"z | "Am"z :|]`,
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `[|: "Am"z | "F"z | "C"z | "G"z :|]`,
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `[|: "Am"z | "G"z | "F"z | "G"z :|]`,
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `[|: "C"z | "Am"z | "F"z | "G"z :|]`,
+              },
+            },
+            {
+              para: 'אני מתאר לעצמי שהמהלכים האלה נשמעים מעט מוכרים. הסיבה היא שקיימים המון שירים, אלפי שירים, שבנויים ממהלכים של ארבעה אקורדים, והמהלכים שניגנתם נחשבים די פופולריים. ',
+            },
+            {
+              para: 'בואו ננסה לנגן מהלכי אקורדים יותר (שימו לב שיש אקורדים שמתחלפים אחרי חצי תיבה):',
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: ` "C"z | "G"z | "Am"z | "F"z/ "G"z/ |
+                "C"z | "F"z/ "G"z/ | "Am"z/ "G"z/ | "F"z/ "C"z/ |]
+                `,
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/1',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: ` "C"z/ "Am"z/ | "G"z | "C"z/ "Am"z/ | "G"z/ "F"z/  |
+                "Am"z | "C"z/ "Am"z/ | "F"z/ "G"z/ |  "C"z |]
+                `,
+              },
+            },
+            {
+              para: 'אתם שמים לב להבדל בסאונד ובצבע של האקורדים המינוריים והמז׳וריים? תקשיבו טוב בזמן שאתם מנגנים.',
+            },
+          ],
+        },
+        // lesson - נגינה עם הרכב
+        {
+          lessonHeader: 'נגינה עם הרכב',
+          lessonElements: [
+            {
+              topicHeader: 'בואו נראה מה למדתם',
+            },
+            {
+              para: 'הכנתי לכם פלייבק שבו אתם בתפקיד המלווה. תלוו את האקורדים שמופיעים בסרטון בטכניקת פירוקי רבעים.',
+            },
+            {
+              para: 'להוסיף פה סרטון.',
+            },
           ],
         },
       ],
@@ -1958,18 +2049,12 @@ const the_middle_octave = {
     {
       chapterHeader: 'תרגול יצירות',
       lessons: [
+        // lesson - תרגול יצירות עם רבעים
         {
-          lessonHeader: 'להוסיף שיעור',
-          lessonElements: [{ para: 'TODO: add content' }],
-        },
-        {
-          lessonHeader: 'תרגול יצירות',
+          lessonHeader: 'תרגול יצירות עם רבעים',
           lessonElements: [
             {
-              para: 'שימו לב להבדל בין האקורדים המינוריים למז׳וריים. אתם מצליחים להבדיל ביניהם מתוך שמיעה? אתם שמים לב להבדל ב- ״צבע״ שלהם? אולי לא על ההתחלה, אבל תוך כדי שאתם מנגנים, תקשיבו היטב לצלילים שאתם מנגנים. תקשיבו איך צלילים נשמעים כאשר הם מנוגנים אחד ביחד עם השני. תקשיבו היטב להרמוניות, ולאופן שבו חילופי ההרמוניות משפיעים על התחושה שאנחנו מקבלים מהמוזיקה. ',
-            },
-            {
-              para: 'נגנו את התרגילים הבאים, ותקפידו שאתם מנגנים את האקורדים הנכונים, עכשיו שמתחילים להיות אצלנו יותר אקורדים בארגז הכלים שלנו.',
+              para: 'בשיעור הזה נתרגל נגינת יצירות עם החומר שלמדנו עד כה, רק בלי שמיניות. איתן נתעסק שיעור הבא.',
             },
             {
               tune: {
@@ -1978,12 +2063,8 @@ const the_middle_octave = {
                   M: '4/4',
                   K: 'C',
                 },
-                body: `"C" E C D E |"G" D E"Am" C2 |"F" C E D C |"G" D E E2 |
-      "C" E C D E |"F" D C C2 |"Am" D C C D |"Em" D2 E2 |
-      "C" E C D E |"F" D C C2 |"G" D C C2 |"C" C4 |]`,
-                meta: {
-                  C: 'Irad Doron',
-                },
+                body: `"C" C D E2 |"F" E2 D2 |"G" G F E D |"Am" D2 C2 |
+                "G" G F E D |"F" D2 C2 |"G" D2 F2 |"C" E4 |]`,
               },
             },
             {
@@ -1993,13 +2074,8 @@ const the_middle_octave = {
                   M: '4/4',
                   K: 'C',
                 },
-                body: `"C" C2 G F |"G" G2 E D |"Dm" F2 E D |"G" D4 |
-                  "C" E F G F |"F" E D C2 |"Dm" D E F E |"G" E2 D2 |
-                  "C" E F G F |"Dm" E F D C |"F" E F G F |"G" E F D C |
-                  "C" C2 G F |"G" G2 E D |"F" F2 E D |"C" C4 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
+                body: `"C" G2 G2 |"G" G2 D2 |"Am" F E C F |"F" E D"G" D2 |
+                "C" G2"G" G2 |"F" G2"G" D2 |"Am" F E"F" C D |"C" C4 |]`,
               },
             },
             {
@@ -2009,121 +2085,18 @@ const the_middle_octave = {
                   M: '4/4',
                   K: 'C',
                 },
-                body: `"Dm" D E F E | D E F E |"G" D2 D E |"F" D2"G" D2 |
-                  "C" E F G F | E F G F |"F" E2 E F |"G" E2 D2 |
-                  "Dm" G F D C |"F" G E F2 |"C" F E C D |"G" E F D C |
-                  "Dm" D E F E |"C" E F G F |"F" F E C D |"C" E4 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/4',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" E D E C |"G" D C D E |"F" F E F D |"C" E G"G" F E |
-                  "Am" E D E C |"Dm" D C D E |"F" F C D C |"G" D E D C |
-                  "C" E D E C |"G" D C D E |"F" F E F D |"C" E G"G" F E |
-                  "F" G F G E |"Dm" F E F G |"G" F E D C |"C" C4 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/4',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" C D E F | G F E D |"F" C D E F |"G" G E D C |
-                  "F" G F E D |"C" G F E2 |"G" G E D C |"Dm" F E"G" D2 |
-                  "C" C D E F |"G" G F E D |"Am" C D E F |"F" E D C D |
-                  "C" D C E F |"Am" G F E D |"Dm" C D"G" E F |"C" E D C2 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/4',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" C2 E2 |"Em" G G G E |"F" E2 F2 |"G" E F E D |
-                  "Am" C2 E2 |"Dm" F F F E |"G" D C D C |"C" D E E2 |
-                  "F" G2 F2 |"Em" D E E2 |"Dm" G F F E |"G" E D D C |
-                  "C" C2 E2 |"Em" G G G E |"F" E2"G" F2 |"C" E4 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
+                body: `"C" E D E F |"F" E D C E |"G" D C D E |"Am" D C E2 |
+              "C" E D E G |"F" G F C D |"G" D C D F |"C" E D E2 |]`,
               },
             },
           ],
         },
+        // lesson - תרגול יצירות עם שמיניות
         {
-          lessonHeader: 'רגול יצירות עם שמיניות',
+          lessonHeader: 'תרגול יצירות עם שמיניות',
           lessonElements: [
             {
-              para: 'בשיעור הזה נעלה את רמת הקושי ונתרגל יצירות עם שמיניות.',
-            },
-            {
-              para: 'כל תרגיל קודם כל תנסו לנגן בפרימה ויסטה. לאחר מכן, נגנו לחוד את התפקידים של שתי הידיים (יד שמאל קודם שורשים ואז פירוקי רבעים). אחר כך תנגנו עם מטרונום עם שתי ידיי םכאשר יד שמאל מנגנת שורשים, ואז נגנו שוב כאשר יד שמאל מנגנת פירוקי רבעים. כל שלב כזה בתרגיל תנגנו כמה פעמים שאתם צריכים עד שאתם יכולים לנגן את התרגיל כמה פעמים ברצף בלי טעויות.',
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/8',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"Am" z4 G2 GE |"Em" DE E4 z2 |"F" z4 G2 GE |"G" DE E4 z2 |
-                  "Am" z4 E2 EC |"Dm" CD D4 DE |"Em" FE E2 FEED |"Am" E8 |
-                  "C" z4 G2 GE |"F" DE E4 z2 |"C" z4 G2 GE |"Dm" DEED"G" E2 z2 |
-                  "Am" C4 G2 GE |"F" DE C4 DE |"Dm" FE E2"G" FEED |"C" E8 |]`,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/8',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"C" C2 CC C2 C2 |"F" C2 CC C2 C2 |"C" C2 DE"Em" DEFG |"Dm" EFEF"G" D4 |
-                  "Am" C2 CC C2 D2 |"Em" E2 EE E2 EF |"F" G4 F2 E2 |"G" E4 D4 |
-                  "Em" GG G4 F2 |"Dm" EF F4 E2 |"C" DF E4 D2 |"G" D4"Em" D4 |
-                  "Am" C2 CC C2 D2 |"Em" E2 EE E2 E2 |"F" E2 F2"G" E2 D2 |"C" D4 C4 |] `,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
-            },
-            {
-              tune: {
-                header: {
-                  L: '1/8',
-                  M: '4/4',
-                  K: 'C',
-                },
-                body: `"G" z2 z G FDFE |"C" E2 E4 DE |"F" FGFG"C" EFED |"Dm" EFEF"G" DEDC |
-                  "Dm" z GFD"G" FEDC |"F" z FEC"G" EDEC |"F" z FEC"G" EDEC |"C" C4"Am" z4 |
-                  "Dm" z2 z G"G" FDFE |"C" E2 E2-"Am" E2 DE |"F" z CDE"Dm" z EDE |"G" z GDE"Em" E4 |
-                  "Dm" z GFD"G" FEDC |"F" z FEC"G" EDEC |"F" z FEC"G" EDEC |"C" C4 z4 |]`,
-                meta: {
-                  C: 'Irad Doron',
-                },
-              },
+              para: 'בשיעור הזה נעלה רמה ונתרגל גם שמיניות. כל החומר של הקורס עד כה יהיה בשימוש בשיעור הזה אז תהיו מוכנים.',
             },
           ],
         },
@@ -2242,9 +2215,172 @@ const the_middle_octave = {
     {
       chapterHeader: 'תרגול יצירות',
       lessons: [
+        // lesson - תרגול יצירות עם רבעים
         {
-          lessonHeader: 'להוסיף שיעור',
-          lessonElements: [{ para: 'TODO: add content' }],
+          lessonHeader: 'תרגול יצירות עם רבעים',
+          lessonElements: [
+            {
+              para: 'שימו לב להבדל בין האקורדים המינוריים למז׳וריים. אתם מצליחים להבדיל ביניהם מתוך שמיעה? אתם שמים לב להבדל ב- ״צבע״ שלהם? אולי לא על ההתחלה, אבל תוך כדי שאתם מנגנים, תקשיבו היטב לצלילים שאתם מנגנים. תקשיבו איך צלילים נשמעים כאשר הם מנוגנים אחד ביחד עם השני. תקשיבו היטב להרמוניות, ולאופן שבו חילופי ההרמוניות משפיעים על התחושה שאנחנו מקבלים מהמוזיקה. ',
+            },
+            {
+              para: 'נגנו את התרגילים הבאים, ותקפידו שאתם מנגנים את האקורדים הנכונים, עכשיו שמתחילים להיות אצלנו יותר אקורדים בארגז הכלים שלנו.',
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" E C D E |"G" D E"Am" C2 |"F" C E D C |"G" D E E2 |
+          "C" E C D E |"F" D C C2 |"Am" D C C D |"Em" D2 E2 |
+          "C" E C D E |"F" D C C2 |"G" D C C2 |"C" C4 |]`,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" C2 G F |"G" G2 E D |"Dm" F2 E D |"G" D4 |
+                      "C" E F G F |"F" E D C2 |"Dm" D E F E |"G" E2 D2 |
+                      "C" E F G F |"Dm" E F D C |"F" E F G F |"G" E F D C |
+                      "C" C2 G F |"G" G2 E D |"F" F2 E D |"C" C4 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"Dm" D E F E | D E F E |"G" D2 D E |"F" D2"G" D2 |
+                      "C" E F G F | E F G F |"F" E2 E F |"G" E2 D2 |
+                      "Dm" G F D C |"F" G E F2 |"C" F E C D |"G" E F D C |
+                      "Dm" D E F E |"C" E F G F |"F" F E C D |"C" E4 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" E D E C |"G" D C D E |"F" F E F D |"C" E G"G" F E |
+                      "Am" E D E C |"Dm" D C D E |"F" F C D C |"G" D E D C |
+                      "C" E D E C |"G" D C D E |"F" F E F D |"C" E G"G" F E |
+                      "F" G F G E |"Dm" F E F G |"G" F E D C |"C" C4 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" C D E F | G F E D |"F" C D E F |"G" G E D C |
+                      "F" G F E D |"C" G F E2 |"G" G E D C |"Dm" F E"G" D2 |
+                      "C" C D E F |"G" G F E D |"Am" C D E F |"F" E D C D |
+                      "C" D C E F |"Am" G F E D |"Dm" C D"G" E F |"C" E D C2 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/4',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" C2 E2 |"Em" G G G E |"F" E2 F2 |"G" E F E D |
+                      "Am" C2 E2 |"Dm" F F F E |"G" D C D C |"C" D E E2 |
+                      "F" G2 F2 |"Em" D E E2 |"Dm" G F F E |"G" E D D C |
+                      "C" C2 E2 |"Em" G G G E |"F" E2"G" F2 |"C" E4 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+          ],
+        },
+        // lesson - תרגול יצירות עם שמיניות
+        {
+          lessonHeader: 'תרגול יצירות עם שמיניות',
+          lessonElements: [
+            {
+              para: 'בשיעור הזה נעלה את רמת הקושי ונתרגל יצירות עם שמיניות.',
+            },
+            {
+              para: 'כל תרגיל קודם כל תנסו לנגן בפרימה ויסטה. לאחר מכן, נגנו לחוד את התפקידים של שתי הידיים (יד שמאל קודם שורשים ואז פירוקי רבעים). אחר כך תנגנו עם מטרונום עם שתי ידיים כאשר יד שמאל מנגנת שורשים, ואז נגנו שוב כאשר יד שמאל מנגנת פירוקי רבעים. כל שלב כזה בתרגיל תנגנו כמה פעמים שאתם צריכים עד שאתם יכולים לנגן את התרגיל כמה פעמים ברצף בלי טעויות.',
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"Am" z4 G2 GE |"Em" DE E4 z2 |"F" z4 G2 GE |"G" DE E4 z2 |
+                      "Am" z4 E2 EC |"Dm" CD D4 DE |"Em" FE E2 FEED |"Am" E8 |
+                      "C" z4 G2 GE |"F" DE E4 z2 |"C" z4 G2 GE |"Dm" DEED"G" E2 z2 |
+                      "Am" C4 G2 GE |"F" DE C4 DE |"Dm" FE E2"G" FEED |"C" E8 |]`,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"C" C2 CC C2 C2 |"F" C2 CC C2 C2 |"C" C2 DE"Em" DEFG |"Dm" EFEF"G" D4 |
+                      "Am" C2 CC C2 D2 |"Em" E2 EE E2 EF |"F" G4 F2 E2 |"G" E4 D4 |
+                      "Em" GG G4 F2 |"Dm" EF F4 E2 |"C" DF E4 D2 |"G" D4"Em" D4 |
+                      "Am" C2 CC C2 D2 |"Em" E2 EE E2 E2 |"F" E2 F2"G" E2 D2 |"C" D4 C4 |] `,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+            {
+              tune: {
+                header: {
+                  L: '1/8',
+                  M: '4/4',
+                  K: 'C',
+                },
+                body: `"G" z2 z G FDFE |"C" E2 E4 DE |"F" FGFG"C" EFED |"Dm" EFEF"G" DEDC |
+                      "Dm" z GFD"G" FEDC |"F" z FEC"G" EDEC |"F" z FEC"G" EDEC |"C" C4"Am" z4 |
+                      "Dm" z2 z G"G" FDFE |"C" E2 E2-"Am" E2 DE |"F" z CDE"Dm" z EDE |"G" z GDE"Em" E4 |
+                      "Dm" z GFD"G" FEDC |"F" z FEC"G" EDEC |"F" z FEC"G" EDEC |"C" C4 z4 |]`,
+                meta: {
+                  C: 'Irad Doron',
+                },
+              },
+            },
+          ],
         },
       ],
     },
