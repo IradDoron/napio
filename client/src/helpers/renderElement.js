@@ -6,6 +6,7 @@ import Para from '../components/BookComponents/Para/Para';
 import ListItem from '../components/BookComponents/ListItem/ListItem';
 import Tune from '../components/BookComponents/Tune/Tune';
 import TopicHeader from '../components/BookComponents/TopicHeader/TopicHeader';
+import VideosMat from '../components/BookComponents/VideosMat/VideosMat';
 
 function renderElement(element, value, index) {
   switch (element) {
@@ -52,6 +53,9 @@ function renderElement(element, value, index) {
     }
     case 'topicHeader': {
       return <TopicHeader key={index}>{value}</TopicHeader>;
+    }
+    case 'videosMat': {
+      return <VideosMat key={index} value={value}/>;
     }
     default: {
       return <p key={index}>not in switch-case function</p>;
