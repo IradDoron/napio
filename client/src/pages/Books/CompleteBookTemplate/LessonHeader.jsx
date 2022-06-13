@@ -2,10 +2,11 @@ import books_data from '../../../helpers/books_data/books_data';
 import styled from 'styled-components';
 import { Typography } from '@mui/material';
 
-const StyledChapterHeader = styled.h1`
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
+const HeaderDivider = styled.div`
+  height: 10px;
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
 `;
 
 function LessonHeader({ categoryUrl, bookUrl, chapterIndex, lessonIndex }) {
@@ -23,6 +24,7 @@ function LessonHeader({ categoryUrl, bookUrl, chapterIndex, lessonIndex }) {
               ?.lessonHeader
           }
         </Typography>
+        <HeaderDivider />
       </>
     );
   } else {
