@@ -72,7 +72,7 @@ function Books() {
           {categoryUrl && bookUrl ? (
             <>
               <h2>
-                פרק מספר {chapterIndex} -
+                פרק מספר {chapterIndex} -{` `}
                 {books_data[categoryUrl]?.books[bookUrl]?.chapters[Number(chapterIndex)]?.chapterHeader}
               </h2>
               <nav>

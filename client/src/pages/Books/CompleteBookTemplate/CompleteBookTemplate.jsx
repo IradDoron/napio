@@ -18,13 +18,13 @@ function CompleteBookTemplate() {
 
   return (
     <>
-      <LessonHeader categoryUrl={categoryUrl} bookUrl={bookUrl} chapterIndex={chapterIndex} lessonIndex={lessonIndex} />
       <BookNavigation
         categoryUrl={categoryUrl}
         bookUrl={bookUrl}
         chapterIndex={chapterIndex}
         lessonIndex={lessonIndex}
       />
+      <LessonHeader categoryUrl={categoryUrl} bookUrl={bookUrl} chapterIndex={chapterIndex} lessonIndex={lessonIndex} />
 
       <LessonBlock categoryUrl={categoryUrl} bookUrl={bookUrl} chapterIndex={chapterIndex} lessonIndex={lessonIndex} />
       <BookNavigation
