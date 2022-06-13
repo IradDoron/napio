@@ -76,7 +76,7 @@ function Books() {
                 {books_data[categoryUrl]?.books[bookUrl]?.chapters[Number(chapterIndex)]?.chapterHeader}
               </h2>
               <nav>
-                <ul>
+                <ol start="0">
                   {getChapterNames(categoryUrl, bookUrl)?.map((chapterIndexName, index) => {
                     return (
                       <li key={index}>
@@ -86,7 +86,7 @@ function Books() {
                       </li>
                     );
                   })}
-                </ul>
+                </ol>
               </nav>
             </>
           ) : null}
@@ -101,7 +101,7 @@ function Books() {
                 }
               </h2>
               <nav>
-                <ul>
+                <ol>
                   {getLessonsNames(categoryUrl, bookUrl, chapterIndex)?.map((lessonIndexName, index) => {
                     return (
                       <li key={index}>
@@ -111,7 +111,7 @@ function Books() {
                       </li>
                     );
                   })}
-                </ul>
+                </ol>
               </nav>
             </>
           ) : null}
