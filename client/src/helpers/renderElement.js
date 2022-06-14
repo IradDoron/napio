@@ -8,6 +8,7 @@ import Tune from '../components/BookComponents/Tune/Tune';
 import TopicHeader from '../components/BookComponents/TopicHeader/TopicHeader';
 import VideosMat from '../components/BookComponents/VideosMat/VideosMat';
 import Topic from '../components/BookComponents/Topic/Topic';
+import ComingSoon from '../components/BookComponents/ComingSoon/ComingSoon';
 
 function renderElement(element, value, index, topicsAreExpanded) {
   switch (element) {
@@ -60,6 +61,9 @@ function renderElement(element, value, index, topicsAreExpanded) {
     }
     case 'topic': {
       return <Topic key={index} value={value} index={index} topicsAreExpanded={topicsAreExpanded} />;
+    }
+    case 'comingSoon': {
+      return <ComingSoon key={index} />;
     }
     default: {
       return <p key={index}>not in switch-case function</p>;

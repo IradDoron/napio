@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <PagesNav />
-        <PageWrapper>
+        <PageWrapper >
           <Routers />
         </PageWrapper>
       </BrowserRouter>
