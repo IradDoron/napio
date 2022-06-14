@@ -7,8 +7,9 @@ import ListItem from '../components/BookComponents/ListItem/ListItem';
 import Tune from '../components/BookComponents/Tune/Tune';
 import TopicHeader from '../components/BookComponents/TopicHeader/TopicHeader';
 import VideosMat from '../components/BookComponents/VideosMat/VideosMat';
+import Topic from '../components/BookComponents/Topic/Topic';
 
-function renderElement(element, value, index) {
+function renderElement(element, value, index, topicsAreExpanded) {
   switch (element) {
     case 'chapterHeader': {
       return <h1 key={index}>{value}</h1>;
@@ -55,7 +56,10 @@ function renderElement(element, value, index) {
       return <TopicHeader key={index}>{value}</TopicHeader>;
     }
     case 'videosMat': {
-      return <VideosMat key={index} value={value}/>;
+      return <VideosMat key={index} value={value} />;
+    }
+    case 'topic': {
+      return <Topic key={index} value={value} index={index} topicsAreExpanded={topicsAreExpanded} />;
     }
     default: {
       return <p key={index}>not in switch-case function</p>;
