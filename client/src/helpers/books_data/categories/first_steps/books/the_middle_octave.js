@@ -58,7 +58,7 @@ const the_middle_octave = {
             },
             {
               topic: {
-                title: 'מה תוכלי לנגן בסוף הקורס?',
+                title: 'מה תוכלו לנגן בסוף הקורס?',
                 topicElements: [
                   {
                     para: 'אתם תוכלו לקרוא תרשימים מוזיקליים בכיף, ולנגן מנגינות כולל ליווי אקורדים. הנה כמה הדגמות לרמה שאליה תגיעו בסוף הקורס:',
@@ -103,7 +103,7 @@ const the_middle_octave = {
           lessonElements: [
             {
               topic: {
-                title: 'מהם צלילים?',
+                title: 'מה זה צליל?',
                 topicElements: [
                   { para: 'כאשר מדברים על צלילים, בהקשר של תאוריית המוזיקה, "צליל" הוא כל מה שניתן לשמוע.' },
                   {
@@ -224,7 +224,60 @@ const the_middle_octave = {
         // lesson - תרגול
         {
           lessonHeader: 'תרגול',
-          lessonElements: [{ comingSoon: '' }],
+          lessonElements: [
+            {
+              topic: {
+                title: 'תרגול סדרת הצלילים הבסיסיים',
+                topicElements: [
+                  {
+                    para: 'חשוב לדעת את הסדר של הצלילים הבסיסיים. איזה צליל מגיע אחרי כל צליל אחר. בשיעור הזה נתרגל היטב את הנושא הזה.',
+                  },
+                  {
+                    para: 'הנה כמה תרגילים שאתם יכולים לעשות כדי לחזק את ההבנה על סדר הצלילים:',
+                  },
+                  {
+                    oList: [
+                      { listItem: 'תאמרו את סדרת הצלילים הבסיסיים החל מהצליל דו, כלפי מעלה (דו, רה, מי...)' },
+                      { listItem: 'תתחילו מהצליל דו, ותאמרו את הסדרת הצלילים הבסיסיים בירידה (דו, סי, לה...)' },
+                      {
+                        listItem:
+                          'תחזרו על שני התרגילים הקודמים משאר הצלילים. פעם תתחילו מ- ״רה״, אחר רך מ- ״מי״, ותמשיכו כך גם מהצלילים ״פה״, ״סול״, ״לה״ ו- ״סי״.',
+                      },
+                    ],
+                  },
+                ],
+              },
+            },
+            {
+              topic: {
+                title: 'תרגול בקפיצות',
+                topicElements: [
+                  {
+                    para: 'בתרגיל הזה אתם מתחילים מצליל כלשהו מתוך סדרת הצלילים, ועולים פעם אחת למעלה, ופעם אחת למטה, כאשר אתם מדלגים על צליל אחד.',
+                  },
+                  {
+                    para: 'לדוגמה אם אתם מתחילים מ- ״דו״ ועולים למעלה, סדר הצלילים יהיה: דו, מי, סול, סי, רה, פה, לה ו- דו. התרגיל מסתיים כאשר אתם מגיעים לצליל שממנו התחלתם.',
+                  },
+                  {
+                    para: 'אותה דוגמה אבל בירידה תהיה כך: דו, לה, פה, רה, סי, סול, מי, ו- דו.',
+                  },
+                ],
+              },
+            },
+            {
+              topic: {
+                title: 'מילות סיכום',
+                topicElements: [
+                  {
+                    para: 'זה לוקח זמן לשלוט בסדר של הצלילים, אבל זאת מיומנות חשובה ביותר לכל מוזיקאי ובמיוחד לפסנתרנים. אלו חישובים קטנים שנצטרך לחשב בראש שלנו כל הזמן, וככל שנבצע אותם יותר מהר נוכל לנגן מוזיקה מורכבת יותר בנוחות. זה מזכיר את החשיבות של שינון לוח הכפל. אוסף חישובים בסיסיים שמבצעים כל הזמן אז כדאי לבצע אותם מהר.',
+                  },
+                  {
+                    para: 'לשמחתנו אין פה הרבה חישובים לזכור בעל פה. התרגילים שכתבתי לכם בשיעור הזה יעזרו לנו לכל אורך הקורס, ולא צריך לבצע חישובים מורכבים יותר. ',
+                  },
+                ],
+              },
+            },
+          ],
         },
         // lesson - מבנה המקלדת
         {
@@ -3549,6 +3602,152 @@ const the_middle_octave = {
                 "Am" AEAB cBAE |"Em" GEGA BAGE |"Am" AEAB cBAE |"Dm" FGFE "G" DFED |
                 "C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
                 "Am" ECDE FGAG |"Dm" FDEF GABA |"F" AFGA "G" BABG |"C" cBcB c4 |]`,
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              topic: {
+                title: 'יצירה לתרגול',
+                topicElements: [
+                  {
+                    tune: {
+                      header: {
+                        L: '1/8',
+                        M: '4/4',
+                        K: 'C',
+                      },
+                      body: `"C" C B2 c- cBAG |"F" A B2 A- A2 GF |"C" E G2 G- GFEF |"G" E D2 D- D4 |
+                      "C" C B2 c- cBAG |"F" A B2 A- AFGF |"C" EGFE "G" DEFG |"C" F2 EE- E4 |"G" D8 |
+                      "Am" C B2 c- cBAG |"Em" A B2 B- B4 |"F" A B2 A- AFAB |"G" c B2 B- B4 |
+                      "Am" C B2 c- cBAG |"Em" A B2 B- B2 DE |"Dm" FGAc "G" BGAF |"Em" E4 D4 |
+                      "Am" C B2 c- cBAG |"Em" ABGE BGEG |"F" ABcA cFAB |"G" cBAB- BGFD |
+                      "Am" C B2 c- cBAG |"Em" A B2 B- B2 DE |"Dm" FGAc AGFE |"G" D8 |
+                      "C" C B2 c- cGFE |"F" F G2 F- FDEF |"C" G A2 G- "G" G2 F2 |"C" E8- | E8 |]`,
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              topic: {
+                title: 'יצירה לתרגול',
+                topicElements: [
+                  {
+                    tune: {
+                      header: {
+                        L: '1/8',
+                        M: '4/4',
+                        K: 'C',
+                      },
+                      body: `"F" C F2 G A G2 A |"G" B A2 c "C" E4 |"Dm" c F2 E F c2 B |"G" B8 |
+                      "F" C F2 G A G2 A |"G" B A2 c "C" E2 DE |"Dm" FAGF "C" EDEF |"G" ED D6 |
+                      "Am" c E2 D E c2 E |"Dm" FGAB "Am" ED E2 |"F" c E2 D E c2 B |"G" B8 |
+                      "F" C F2 G A G2 A |"G" B A2 B "Am" B4 | c8 | A4 G4 |"Dm" FAGF "C" EGFE |
+                      "G" DCDG FEDE |"F" C F2 G A G2 A |"G" B A2 c "C" E4 |"Dm" c F2 E F c2 B |"G" BAAG GFFB |
+                      "Am" cEDE cEDE |"Dm" BFEF BFEF |"F" AGFG AGFG |"G" BGFG EcDB |
+                      "Am" cEDE cEDE |"Dm" BFEF BFEF |"F" AGFG AGFG |"G" B2 A2 G2 B2- |"C" BcBA GFED | C8 |]`,
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              topic: {
+                title: 'יצירה לתרגול',
+                topicElements: [
+                  {
+                    tune: {
+                      header: {
+                        L: '1/8',
+                        M: '4/4',
+                        K: 'C',
+                      },
+                      body: `"C" GEDE CEDE |"F" G2 A6 |"Dm" AFEF DFEF |"G" A2 B6 |
+                      "Am" cAGA EAGA |"Em" BGFG EGFG |"F" AFEF DFEF |"G" BABA GABG |
+                      "C" cGFG EGFG |"F" cAGA FAGA |"G" BGFG DGFG |"Em" BGFG EGFG |
+                      "Am" cAGA EAGA |"Dm" FAGA DAGA |"C" FGFE FEDC |"G" DEFE DEDC |
+                      "C" GEDE CEDE |"F" GAAG AGFE |"Dm" AFEF DFEF |"G" AABA BAGF |
+                      "Em" BGFG EGFG |"Am" ABcB cBAG |"F" AGFE DCDE |"G" FGFE DEDC |
+                      "C" GEDE CEDE |"F" GAAG AGFE |"Dm" AFEF DFEF |"G" ABBA BAGF |
+                      "Em" GEDE GEDE |"F" AFEF AFEF |"G" BFEF AFEF | GFEF BFEF |
+                      "Am" B2 c6 |"G" c2 B6 |"F" z AGA FAGA |"G" cBBA BAGF |"Em" GEDE GEGB |
+                      "Am" BAAG AGEG |$"F" AGEG AGEG |"Dm" AGFG AFEF |"G" GABA BABG |"C" BccB c4- | c8 |] `,
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              topic: {
+                title: 'יצירה לתרגול',
+                topicElements: [
+                  {
+                    tune: {
+                      header: {
+                        L: '1/4',
+                        M: '4/4',
+                        K: 'C',
+                      },
+                      body: `"Dm" F A2 F |"Am" E C3 |"F" G A F C |"G" E2 D2 |
+                      "Dm" F A2 F |"Am" E c C c |"F" G A F C |"G" D2 c B- | B4 |
+                      "Am" c C c C |"F" B C A C |"C" G C F C |"G" E D B c- |
+                      "Am" c C c C |"F" B C c C |"C" c C B A |"G" B D E B |
+                      "Am" c C c C |"F" B C A C |"C" G C F E |"G" D2 B2 |"Am" c C c C |
+                      "F" B C A C |"C" A C G C |"Em" B4- | B2 c B |"Am" A4- | A4 |
+                      "Dm" F A2 F |"Am" E C3 |"F" G A F C |"G" C2 D2 |
+                      "Dm" F A2 F |"Am" E c C c |"F" G A F c |"G" B2 c B |"C" B2 c2 |] `,
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          lessonHeader: 'יצירה לתרגול',
+          lessonElements: [
+            {
+              topic: {
+                title: 'יצירה לתרגול',
+                topicElements: [
+                  {
+                    tune: {
+                      header: {
+                        L: '1/8',
+                        M: '4/4',
+                        K: 'C',
+                      },
+                      body: `"C" z CEC GCcC |"F" Accc- c2 AG |"C" Gccc- c2 AG |"G" GFFE D G3 |
+                      "C" z CEC GCcG |"F" Accc- c2 AF |"C" Gccc- cGFE |"G" D4- DEDE |
+                      "C" z CEC GCcC |"F" Accc BcAF |"G" Gccc BccB |"C" c8 | z4"G" z4 | 
+                      "Am" cCEC ACcA |"Em" ABBB- B4 |"F" z CFC ACcC |"G" AGGG- GFED |
+                      "C" EGGG GFEF |"G" DGGG GFED |"Am" CAAA cAcA |"Dm" FGFE"G" D4 |
+                      "C" z CEC GCcC |"F" Accc- c2 AF |"C" Gccc- cGFE |"G" D8 |
+                      "Am" z CEC ACcC |"Em" ABBB- BAGF |"F" z CFC ACcC |"G" AGGG- G4 |
+                      "C" EGGG GFEF |"G" DGGG GFED |"Am" CAAA cAcA |"Dm" FGFE"G" D4 |
+                      "Dm" FAGF EDCD |"C" EGFE DCDE |"G" FEED- D3 D |"F" FEDC"G" D4 |"C" E8 |]`,
                     },
                   },
                 ],
