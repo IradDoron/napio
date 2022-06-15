@@ -3455,6 +3455,7 @@ const the_middle_octave = {
     {
       chapterHeader: 'תרגול יצירות',
       lessons: [
+        // lesson 1
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3481,11 +3482,11 @@ const the_middle_octave = {
                         K: 'C',
                       },
                       body: `"Dm" z DEF AGFE |"Am" CDEG FEDC |"G" D2 EF- FEDC- |"F" CFEC"G" D4 |
-                "Dm" z DEF AGFE |"Am" CDEG FEFE |"G" EDFE EDEC |"F" DCED"G" DCDC |
+                "Dm" z DEF AGFE |"Am" CDEG FEFE |"G" EDFE EDEC |"F" DCED "G" DCDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B E2 A- |"F" AGFE FCDE |"G" D2 EF- FEDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B E2 A- |"F" AGFE FCDE |"G" D2 E2 D2 C2 |
                 "Dm" z DEF AGFE |"Am" C4 z2 DC |"G" D2 EF- FEDC- |"F" C2 z C"G" D4 |
-                "Dm" z DEF AFAB |"Am" cBAG FEDC |"G" BAGF GFED |"F" AGFE"G" DCDC |
+                "Dm" z DEF AFAB |"Am" cBAG FEDC |"G" BAGF GFED |"F" AGFE "G" DCDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B E2 A- |"F" AGFE FCDE |"G" D2 EF- FEDC |
                 "Am" c E2 c- c E2 B- |"Em" B E2 B- B A2 c- |"F" c4 C4 |"G" D4 B4 |"C" B8 | c8 |]`,
                     },
@@ -3495,6 +3496,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 2
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3516,7 +3518,7 @@ const the_middle_octave = {
                 "Em" G4 E2 G2 |"Am" B2 A2 D2 E2 |"Dm" G2 F2 C2 D2 |"G" F2 E2 D2 C2 |
                 "Em" G2 EG "Am" BADE |"Dm" GFCD "G" FEDC |"Em" GFDE "F" AGEF |"G" BAFG "Em" cBGA |
                 "Am" c4 c4 |"Em" B8 |"F" AB c2 c2 BA |"G" A2 G2 G2 F2 |
-                "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E4 |"C" E4 z4 |`,
+                "C" E4 E2 DE |"F" E2 F2 F2 DE |"G" F4 E4 |"C" E4 z4 |]`,
                     },
                   },
                 ],
@@ -3524,6 +3526,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 3
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3551,6 +3554,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 4
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3580,6 +3584,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 5
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3609,6 +3614,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 6
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3627,9 +3633,9 @@ const the_middle_octave = {
                       "C" C B2 c- cBAG |"F" A B2 A- AFGF |"C" EGFE "G" DEFG |"C" F2 EE- E4 |"G" D8 |
                       "Am" C B2 c- cBAG |"Em" A B2 B- B4 |"F" A B2 A- AFAB |"G" c B2 B- B4 |
                       "Am" C B2 c- cBAG |"Em" A B2 B- B2 DE |"Dm" FGAc "G" BGAF |"Em" E4 D4 |
-                      "Am" C B2 c- cBAG |"Em" ABGE BGEG |"F" ABcA cFAB |"G" cBAB- BGFD |
+                      "Am" C B2 c- cBAG |"Em" ABGE BGEG |"F" ABcB cFAB |"G" cBAB- BGFD |
                       "Am" C B2 c- cBAG |"Em" A B2 B- B2 DE |"Dm" FGAc AGFE |"G" D8 |
-                      "C" C B2 c- cGFE |"F" F G2 F- FDEF |"C" G A2 G- "G" G2 F2 |"C" E8- | E8 |]`,
+                      "C" C B2 c- cGFE |"F" F G2 F- FDEF |"Dm" G A2 G- "G" G2 F2 |"C" E8|]`,
                     },
                   },
                 ],
@@ -3637,6 +3643,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 7
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3654,8 +3661,8 @@ const the_middle_octave = {
                       body: `"F" C F2 G A G2 A |"G" B A2 c "C" E4 |"Dm" c F2 E F c2 B |"G" B8 |
                       "F" C F2 G A G2 A |"G" B A2 c "C" E2 DE |"Dm" FAGF "C" EDEF |"G" ED D6 |
                       "Am" c E2 D E c2 E |"Dm" FGAB "Am" ED E2 |"F" c E2 D E c2 B |"G" B8 |
-                      "F" C F2 G A G2 A |"G" B A2 B "Am" B4 | c8 | A4 G4 |"Dm" FAGF "C" EGFE |
-                      "G" DCDG FEDE |"F" C F2 G A G2 A |"G" B A2 c "C" E4 |"Dm" c F2 E F c2 B |"G" BAAG GFFB |
+                      "F" C F2 G A G2 A |"G" B A2 B "Em" B A2 B | "Am" B4 c4 | z4 G4 |"Dm" FAGF "C" EGFE |
+                      "G" DCDG "Em" FEDE |"F" C F2 G "Dm" A G2 A |"G" B A2 c "C" E4 |"Dm" c F2 E "F" F c2 B |"G" BAAG "Em" GFFB |
                       "Am" cEDE cEDE |"Dm" BFEF BFEF |"F" AGFG AGFG |"G" BGFG EcDB |
                       "Am" cEDE cEDE |"Dm" BFEF BFEF |"F" AGFG AGFG |"G" B2 A2 G2 B2- |"C" BcBA GFED | C8 |]`,
                     },
@@ -3665,6 +3672,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 8
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3680,7 +3688,7 @@ const the_middle_octave = {
                         K: 'C',
                       },
                       body: `"C" GEDE CEDE |"F" G2 A6 |"Dm" AFEF DFEF |"G" A2 B6 |
-                      "Am" cAGA EAGA |"Em" BGFG EGFG |"F" AFEF DFEF |"G" BABA GABG |
+                      "Am" cAGA EAGA |"Em" BGFG EGFG |"F" AFEF CFEF |"G" BGFG DGAB |
                       "C" cGFG EGFG |"F" cAGA FAGA |"G" BGFG DGFG |"Em" BGFG EGFG |
                       "Am" cAGA EAGA |"Dm" FAGA DAGA |"C" FGFE FEDC |"G" DEFE DEDC |
                       "C" GEDE CEDE |"F" GAAG AGFE |"Dm" AFEF DFEF |"G" AABA BAGF |
@@ -3688,7 +3696,7 @@ const the_middle_octave = {
                       "C" GEDE CEDE |"F" GAAG AGFE |"Dm" AFEF DFEF |"G" ABBA BAGF |
                       "Em" GEDE GEDE |"F" AFEF AFEF |"G" BFEF AFEF | GFEF BFEF |
                       "Am" B2 c6 |"G" c2 B6 |"F" z AGA FAGA |"G" cBBA BAGF |"Em" GEDE GEGB |
-                      "Am" BAAG AGEG |$"F" AGEG AGEG |"Dm" AGFG AFEF |"G" GABA BABG |"C" BccB c4- | c8 |] `,
+                      "Am" BAAG AGEG |$"F" AGEG AGEG |"Dm" AGFG AFEF |"G" BGFG DGAB |"C" cGEG c4- | c8 |] `,
                     },
                   },
                 ],
@@ -3696,6 +3704,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 9
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
@@ -3714,8 +3723,8 @@ const the_middle_octave = {
                       "Dm" F A2 F |"Am" E c C c |"F" G A F C |"G" D2 c B- | B4 |
                       "Am" c C c C |"F" B C A C |"C" G C F C |"G" E D B c- |
                       "Am" c C c C |"F" B C c C |"C" c C B A |"G" B D E B |
-                      "Am" c C c C |"F" B C A C |"C" G C F E |"G" D2 B2 |"Am" c C c C |
-                      "F" B C A C |"C" A C G C |"Em" B4- | B2 c B |"Am" A4- | A4 |
+                      "Am" c/ C c C B/- |"F" B/ C A C G/- |"C" G/ C F E D/- |"G" D2 B3/ c/- |"Am" c/ C c C B/- |
+                      "F" B/ C A C A/- |"C" A/ C G C B/- |"Em" B4- | B2 c/ B A/- |"Am" A4- | A4 |
                       "Dm" F A2 F |"Am" E C3 |"F" G A F C |"G" C2 D2 |
                       "Dm" F A2 F |"Am" E c C c |"F" G A F c |"G" B2 c B |"C" B2 c2 |] `,
                     },
@@ -3725,6 +3734,7 @@ const the_middle_octave = {
             },
           ],
         },
+        // lesson 10
         {
           lessonHeader: 'יצירה לתרגול',
           lessonElements: [
