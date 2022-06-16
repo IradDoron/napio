@@ -3602,7 +3602,7 @@ const the_middle_octave = {
                       body: `"C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
                 "Am" ECDE FGAG |"Dm" FDEF GAcB |"G" AGBA cBAB |"C" cBcB cGEG |
                 CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
-                "Am" ECDE FGAG |"Dm" FDEF GABA |"G" AGBA cBAB |"C" cBAG FEDC |
+                "Am" ECDE FGAG |"Dm" FDEF GAcB |"G" AGBA cBAB |"C" cBAG FEDC |
                 "F" FCFG AGFC |"C" ECEF GFEC |"F" FCFG AGFC |"G" GDGA BAGD |
                 "Am" AEAB cBAE |"Em" GEGA BAGE |"Am" AEAB cBAE |"Dm" FGFE "G" DFED |
                 "C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
