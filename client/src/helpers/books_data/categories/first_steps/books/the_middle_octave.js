@@ -3599,14 +3599,14 @@ const the_middle_octave = {
                         M: '4/4',
                         K: 'C',
                       },
-                      body: `"C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
-                "Am" ECDE FGAG |"Dm" FDEF GABA |"G" AGBA cBAB |"C" cBcB cGEG |
-                CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
+                      body: `"C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
+                "Am" ECDE FGAG |"Dm" FDEF GAcB |"G" AGBA cBAB |"C" cBcB cGEG |
+                CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
                 "Am" ECDE FGAG |"Dm" FDEF GABA |"G" AGBA cBAB |"C" cBAG FEDC |
                 "F" FCFG AGFC |"C" ECEF GFEC |"F" FCFG AGFC |"G" GDGA BAGD |
                 "Am" AEAB cBAE |"Em" GEGA BAGE |"Am" AEAB cBAE |"Dm" FGFE "G" DFED |
-                "C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcB |"Em" AGGF FEED |
-                "Am" ECDE FGAG |"Dm" FDEF GABA |"F" AFGA "G" BABG |"C" cBcB c4 |]`,
+                "C" CDEF GABc |"F" FAcB AGFE |"G" DEFG ABcA |"Em" BAGF GFED |
+                "Am" ECDE FGAG |"Dm" FDEF GAcB |"F" AFGA "G" BABG |"C" cBcB c4 |]`,
                     },
                   },
                 ],
