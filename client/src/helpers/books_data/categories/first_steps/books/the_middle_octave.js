@@ -3749,13 +3749,13 @@ const the_middle_octave = {
                         M: '4/4',
                         K: 'C',
                       },
-                      body: `"C" z CEC GCcC |"F" Accc- c2 AG |"C" Gccc- c2 AG |"G" GFFE D G3 |
+                      body: `"C" z CEC GCcG |"F" Accc- c2 AF |"C" Gccc- c2 AG |"G" GFFE D G3 |
                       "C" z CEC GCcG |"F" Accc- c2 AF |"C" Gccc- cGFE |"G" D4- DEDE |
-                      "C" z CEC GCcC |"F" Accc BcAF |"G" Gccc BccB |"C" c8 | z4"G" z4 | 
+                      "C" GCEC GCcC |"F" Accc BcAF |"G" Gccc BccB |"C" c8 | z4"G" z4 | 
                       "Am" cCEC ACcA |"Em" ABBB- B4 |"F" z CFC ACcC |"G" AGGG- GFED |
                       "C" EGGG GFEF |"G" DGGG GFED |"Am" CAAA cAcA |"Dm" FGFE"G" D4 |
-                      "C" z CEC GCcC |"F" Accc- c2 AF |"C" Gccc- cGFE |"G" D8 |
-                      "Am" z CEC ACcC |"Em" ABBB- BAGF |"F" z CFC ACcC |"G" AGGG- G4 |
+                      "C" z CEC GCcG |"F" Accc- c2 AF |"C" Gccc- cGFE |"G" D8 |
+                      "Am" z CEC ACcC |"Em" ABBB- BAGF- |"F" FCFC ACcC |"G" AGGG- G4 |
                       "C" EGGG GFEF |"G" DGGG GFED |"Am" CAAA cAcA |"Dm" FGFE"G" D4 |
                       "Dm" FAGF EDCD |"C" EGFE DCDE |"G" FEED- D3 D |"F" FEDC"G" D4 |"C" E8 |]`,
                     },
